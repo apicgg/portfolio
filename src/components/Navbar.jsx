@@ -9,11 +9,11 @@ import { Link } from 'react-router-dom'
 const Header = () => {
   return (
     <>
-      <nav className='container mx-auto p-4 pb-1 border-b-2 border-gray-400'>
+      <nav className='container p-4 pb-1 mx-auto border-b-2 border-gray-400'>
         {/* Flex container */}
         <div className='flex items-center justify-between'>
           {/* Logo */}
-          <div className='text-blue-900 font-bold text-3xl'>
+          <div className='text-3xl font-bold text-blue-900'>
             <Link to='/'>AP.</Link>
           </div>
 
