@@ -27,24 +27,21 @@ const Header = () => {
             <li>
               <Link
                 to='/about'
-                className='flex items-center hover:text-blue-900'
-              >
+                className='flex items-center hover:text-blue-900'>
                 <AiOutlineUser className='mr-1' /> About
               </Link>
             </li>
             <li>
               <Link
-                to='/projects'
-                className='flex items-center hover:text-blue-900'
-              >
-                <AiOutlineFundProjectionScreen className='mr-1' /> Projects
+                to='/skill'
+                className='flex items-center hover:text-blue-900'>
+                <AiOutlineFundProjectionScreen className='mr-1' /> Skills
               </Link>
             </li>
             <li>
               <Link
                 to='/resume'
-                className='flex items-center hover:text-blue-900'
-              >
+                className='flex items-center hover:text-blue-900'>
                 <AiFillStar className='mr-1' /> Resume
               </Link>
             </li>
