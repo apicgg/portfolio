@@ -13,8 +13,8 @@ const Home2 = () => {
           </h1>
           <div className='font-[500]'>
             <p>
-              Hi All, My name is Anurag Pramanik and I work as a Full Stack Web
-              Developer in an IT company.
+              Hi All, My name is Anurag Pramanik and I work as a Software
+              Engineer in an IT organization.
               <br />
               <br />I am fluent in
               <i>
