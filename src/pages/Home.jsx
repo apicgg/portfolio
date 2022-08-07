@@ -1,9 +1,10 @@
 import Type from '../components/Type'
+import Home2 from './Home2'
 
 const Home = () => {
   return (
     <>
-      <section className='container'>
+      <section className='container mx-auto'>
         <div className='flex items-center justify-between p-6 m-12'>
           <div className='flex flex-col p-24 text-4xl text-slate-700'>
             <div>
@@ -17,7 +18,7 @@ const Home = () => {
             <h2 className='mt-4'>
               I'M <strong>ANURAG</strong>.
             </h2>
-            <span className='mt-6 text-5xl text-blue-900'>
+            <span className='mt-6 text-5xl text-blue-900 font-[600]'>
               <Type />
             </span>
           </div>
@@ -28,6 +29,7 @@ const Home = () => {
             className='pl-4'
           />
         </div>
+        <Home2 />
       </section>
     </>
   )
