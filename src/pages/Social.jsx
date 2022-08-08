@@ -4,9 +4,11 @@ const Social = () => {
   return (
     <>
       <section className='pt-8 mt-4 text-center'>
-        <h1>FIND ME ON</h1>
-        <p>
-          Feel free to <span className='purple'>connect </span>with me
+        <h1 className='pb-2 mb-1 text-4xl text-center text-slate-800 font-[600]'>
+          FIND ME ON
+        </h1>
+        <p className='text-xl'>
+          Feel free to <span className='font-[500]'>connect </span>with me
         </p>
         <ul className='flex items-center justify-center p-4 space-x-12'>
           <li className=''>
@@ -26,7 +28,10 @@ const Social = () => {
             </a>
           </li>
           <li className=''>
-            <a href='#' target='_blank' rel='noreferrer'>
+            <a
+              href='https://www.linkedin.com/in/anurag-pramanik-345843125/'
+              target='_blank'
+              rel='noreferrer'>
               <FaLinkedinIn className='social-icon' />
             </a>
           </li>
