@@ -13,12 +13,12 @@ const Home2 = () => {
           </h1>
           <div className='font-[500]'>
             <p>
-              Hi All, My name is Anurag Pramanik and I work as a Software
-              Engineer in an IT organization.
-              <br />
+              I have over 4 years of experience as a Software Engineer. I fell
+              in love with programming especially full stack web development
+              after my graduation. <br />
               <br />I am fluent in
               <i>
-                <b> HTML, CSS and JavaScript </b>
+                <b> HTML, CSS and JavaScript. </b>
               </i>
               <br />
               <br />
