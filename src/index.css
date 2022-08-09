@@ -48,3 +48,15 @@ body {
   height: 25px;
   width: 25px;
 }
+
+.tech-icon {
+  height: 70px;
+  width: 70px;
+}
+
+/* ! TODO: Add animation on hover for about page */
+.tech-icons:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+}

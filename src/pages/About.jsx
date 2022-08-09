@@ -1,10 +1,11 @@
 import aboutRight from '../Assets/about-right.svg'
+import TechStack from '../components/TechStack'
 import Social from './Social'
 
 const About = () => {
   return (
     <>
-      <section className='container p-8 px-12 mx-auto'>
+      <section className='container p-8 px-24 mx-auto'>
         <div className='flex items-center justify-between'>
           <div>
             <header className='pb-6 mb-4 text-4xl text-center text-slate-800 font-[600]'>
@@ -29,6 +30,10 @@ const About = () => {
             style={{ height: '450px', width: '450px' }}
           />
         </div>
+        <h1 className='p-6 m-4 text-3xl text-center text-slate-800 font-[600]'>
+          Professional <strong className='text-blue-900'>Skillset </strong>
+        </h1>
+        <TechStack />
         <Social />
       </section>
     </>
