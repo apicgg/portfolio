@@ -5,9 +5,13 @@ import {
   DiNodejs,
   DiMongodb,
   DiGit,
-  DiLinux,
 } from 'react-icons/di'
-import { SiHtml5, SiTailwindcss, SiNextdotjs } from 'react-icons/si'
+import {
+  SiHtml5,
+  SiTailwindcss,
+  SiNextdotjs,
+  SiCplusplus,
+} from 'react-icons/si'
 
 const TechStack = () => {
   return (
@@ -33,7 +37,7 @@ const TechStack = () => {
 
         <div className='flex py-4 space-x-12'>
           <i className='py-4 border-2 border-darkGray rounded px-14'>
-            <SiTailwindcss className='tech-icon' />
+            <SiCplusplus className='tech-icon' />
           </i>
           <i className='py-4 border-2 border-darkGray rounded px-14'>
             <SiNextdotjs className='tech-icon' />
@@ -45,7 +49,7 @@ const TechStack = () => {
             <DiGit className='tech-icon' />
           </i>
           <i className='py-4 border-2 border-darkGray rounded px-14'>
-            <DiLinux className='tech-icon' />
+            <SiTailwindcss className='tech-icon' />
           </i>
         </div>
       </section>

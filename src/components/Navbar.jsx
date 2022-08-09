@@ -31,13 +31,14 @@ const Header = () => {
                 <AiOutlineUser className='mr-1' /> About
               </Link>
             </li>
-            <li>
+            {/* Might add later */}
+            {/* <li>
               <Link
                 to='/skill'
                 className='flex items-center hover:text-blue-900'>
                 <AiOutlineFundProjectionScreen className='mr-1' /> Skills
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link
                 to='/resume'

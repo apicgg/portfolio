@@ -1,5 +1,6 @@
 import aboutRight from '../Assets/about-right.svg'
 import TechStack from '../components/TechStack'
+import ToolStack from '../components/ToolStack'
 import Social from './Social'
 
 const About = () => {
@@ -13,9 +14,7 @@ const About = () => {
             </header>
             <p className='font-[500] text-xl leading-normal'>
               Hi Everyone, My name is &nbsp;
-              <span className='font-bold text-blue-900'>
-                Anurag Pramanik.
-              </span>{' '}
+              <span className='font-bold text-blue-900'>Anurag Pramanik.</span>
               <br />
               I work as a Software Engineer in an IT organization. <br /> <br />
               I am currently pursuing Masters in Computer Software Engineering
@@ -30,14 +29,20 @@ const About = () => {
             style={{ height: '450px', width: '450px' }}
           />
         </div>
-        <h1 className='p-6 m-4 text-3xl text-center text-slate-800 font-[600]'>
-          Professional <strong className='text-blue-900'>Skillset </strong>
+        <h1 className='m-2 text-3xl text-center text-slate-800 font-[600]'>
+          <span className='text-blue-900'>
+            Language, Library and Frameworks
+          </span>
         </h1>
         <TechStack />
+        <h1 className='m-2 mt-10 text-3xl text-center text-slate-800 font-[600]'>
+          Other <span className='text-blue-900'>Tools</span> I use
+        </h1>
+        <ToolStack />
         <Social />
       </section>
     </>
   )
 }
+
 export default About
-1

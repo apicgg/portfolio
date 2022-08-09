@@ -3,7 +3,7 @@ import { FaGithub, FaTwitter, FaLinkedinIn } from 'react-icons/fa'
 const Social = () => {
   return (
     <>
-      <section className='pt-20 mt-12 text-center'>
+      <section className='pt-10 mt-10 text-center'>
         <h1 className='pb-2 mb-1 text-4xl text-center text-slate-800 font-[600]'>
           FIND ME ON
         </h1>
