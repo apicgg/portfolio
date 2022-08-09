@@ -3,7 +3,11 @@ import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import About from './pages/About'
 import Home from './pages/Home'
+import Project from './pages/Project'
 import Resume from './pages/Resume'
+
+// TODO: Implement responsive layout, projects and resume.
+// TODO: Spice up the styles of the page
 
 const App = () => {
   return (
@@ -13,7 +17,7 @@ const App = () => {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
-          {/* <Route path='/skill' element={<Skill />} /> */}
+          <Route path='/project' element={<Project />} />
           <Route path='/about' element={<About />} />
           <Route path='/resume' element={<Resume />} />
         </Routes>
