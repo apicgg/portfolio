@@ -5,9 +5,9 @@ const Footer = () => {
   let currentYear = date.getFullYear()
   return (
     <>
-      <footer className='bg-slate-500'>
-        <div className='container mx-auto flex px-12 py-1 items-center justify-between font-[500]'>
-          <h3>Designed and Developed by Anurag Pramanik</h3>
+      <footer className='bg-slate-500 px-12 py-1'>
+        <div className='container mx-auto flex  items-center justify-between font-[500]'>
+          <h3>Developed by Anurag Pramanik</h3>
           <h3>Copyright © {currentYear} AP</h3>
           <ul className='flex items-center justify-center p-4 space-x-12'>
             <li className=''>
