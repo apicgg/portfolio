@@ -12,7 +12,7 @@ const Type = () => {
         ],
         autoStart: true,
         loop: true,
-        delay: 30,
+        delay: 60,
         deleteSpeed: 30,
       }}
     />

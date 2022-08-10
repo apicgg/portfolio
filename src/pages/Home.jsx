@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
       <section className='container mx-auto'>
-        <div className='flex items-center justify-between p-6 m-12'>
+        <div className='flex items-center justify-between p-6 m-12 relative'>
           <div className='flex flex-col p-24 text-4xl text-slate-700'>
             <div>
               <h1>
@@ -30,7 +30,7 @@ const Home = () => {
             src='/home-right.png'
             alt='home-right'
             width='400'
-            className='pl-4'
+            className='pl-4 absolute right-20 top-30'
           />
         </div>
         <Home2 />
