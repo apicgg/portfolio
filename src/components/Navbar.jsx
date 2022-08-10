@@ -20,28 +20,30 @@ const Header = () => {
           {/* Menu Items */}
           <ul className='flex items-center justify-between space-x-12 text-lg font-[500]'>
             <li>
-              <Link to='/' className='flex items-center hover:text-blue-900'>
+              <Link
+                to='/'
+                className='flex items-center hover:text-blue-900 hover-nav'>
                 <AiOutlineHome className='mr-1 ' /> Home
               </Link>
             </li>
             <li>
               <Link
                 to='/about'
-                className='flex items-center hover:text-blue-900'>
+                className='flex items-center hover:text-blue-900 hover-nav'>
                 <AiOutlineUser className='mr-1' /> About
               </Link>
             </li>
             <li>
               <Link
                 to='/project'
-                className='flex items-center hover:text-blue-900'>
+                className='flex items-center hover:text-blue-900 hover-nav'>
                 <AiOutlineFundProjectionScreen className='mr-1' /> Projects
               </Link>
             </li>
             <li>
               <Link
                 to='/resume'
-                className='flex items-center hover:text-blue-900'>
+                className='flex items-center hover:text-blue-900 hover-nav'>
                 <AiFillStar className='mr-1' /> Resume
               </Link>
             </li>

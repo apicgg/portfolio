@@ -9,6 +9,39 @@ body {
   background-color: #94a3b8;
 }
 
+.hover-nav {
+  transition: all 0.3s;
+}
+
+/* .hover-nav {
+  display: inline-block;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.hover-nav-underline:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.hover-nav-underline::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0px;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease-out;
+}
+
+.hover-nav-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+} */
+
 .wave {
   animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
   animation-duration: 2.1s; /* Change to speed up or slow down */
@@ -59,9 +92,28 @@ body {
   width: 70px;
 }
 
+/* ! TODO */
+/* .tech-icon-container-aws:hover {
+  color: #bd7424;
+}
+
+.tech-icon-container-vscode:hover {
+  color: #0066b8;
+  transition: all 0.3s;
+}
+
+.tech-icon-container-postman:hover {
+  color: #ff6c37;
+} */
+
 /* ! TODO: Add animation on hover for about page */
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
   border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+}
+
+.footer-div {
+  display: grid;
+  grid-template-rows: 13.52fr 1fr;
 }
