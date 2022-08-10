@@ -18,8 +18,12 @@ const Home = () => {
             <h2 className='mt-4'>
               I'M <strong>ANURAG</strong>.
             </h2>
+            <h2 className='mt-2'>
+              From <strong>Kolkata, India</strong>.
+            </h2>
             <span className='mt-6 text-5xl text-blue-900 font-[600]'>
-              <Type />
+              {/* Fix the layout bug with typewriter effect below */}
+              {/* <Type /> */}
             </span>
           </div>
           <img
