@@ -1,10 +1,15 @@
 // TODO
 
+import Footer from '../components/Footer'
+
 const Project = () => {
   return (
-    <>
-      <h1 className='p-48 text-center text-5xl my-30 h-fit'>Coming Soon!</h1>
-    </>
+    <div className='footer-div'>
+      <h1 className='flex justify-center items-center text-xl'>
+        Page is under construction!
+      </h1>
+      <Footer />
+    </div>
   )
 }
 export default Project

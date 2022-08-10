@@ -1,3 +1,4 @@
+import Footer from '../components/Footer'
 import Type from '../components/Type'
 import Home2 from './Home2'
 
@@ -31,6 +32,7 @@ const Home = () => {
         </div>
         <Home2 />
       </section>
+      <Footer />
     </>
   )
 }
