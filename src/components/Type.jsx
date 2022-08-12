@@ -4,12 +4,7 @@ const Type = () => {
   return (
     <TypeWriter
       options={{
-        strings: [
-          'Developer',
-          'Open Source',
-          'MERN Stack',
-          'Full Stack Engineer',
-        ],
+        strings: ['Developer', 'Open Source', 'MERN Stack'],
         autoStart: true,
         loop: true,
         delay: 60,
