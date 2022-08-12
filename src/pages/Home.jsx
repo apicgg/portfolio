@@ -5,8 +5,8 @@ const Home = () => {
   return (
     <>
       <section>
-        <div className='container mx-auto flex flex-col lg:flex-row items-center justify-between px-2 lg:px-16 m-2 lg:m-12 space-y-0'>
-          <div className='flex flex-col p-12 lg:p-24 text-4xl text-slate-700'>
+        <div className='container mx-auto flex flex-col md:flex-row items-center justify-between px-2 md:px-16 m-2 md:m-12 space-y-0'>
+          <div className='flex flex-col p-12 md:p-24 text-4xl text-slate-700'>
             <div>
               <h1>
                 Hi There!
@@ -21,7 +21,7 @@ const Home = () => {
             <h2 className='mt-2'>
               From <strong>Kolkata, India</strong>.
             </h2>
-            <span className='mt-6 text-3xl lg:text-4xl text-blue-900 font-[600]'>
+            <span className='mt-6 text-3xl md:text-4xl text-blue-900 font-[600]'>
               <Type />
             </span>
           </div>
