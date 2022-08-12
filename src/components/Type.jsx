@@ -6,9 +6,9 @@ const Type = () => {
       options={{
         strings: [
           'Developer',
-          'Full Stack Engineer',
+          'Open Source',
           'MERN Stack',
-          'Open Source Contributor',
+          'Full Stack Engineer',
         ],
         autoStart: true,
         loop: true,

@@ -1,5 +1,4 @@
 // TODO
-import Footer from '../components/Footer'
 
 const Resume = () => {
   return (
@@ -7,7 +6,6 @@ const Resume = () => {
       <h1 className='flex justify-center items-center text-xl'>
         Page is under construction!
       </h1>
-      <Footer />
     </div>
   )
 }

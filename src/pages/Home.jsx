@@ -1,16 +1,15 @@
-import Footer from '../components/Footer'
 import Type from '../components/Type'
 import Home2 from './Home2'
 
 const Home = () => {
   return (
     <>
-      <section className='container mx-auto'>
-        <div className='flex items-center justify-between p-6 m-12 relative'>
-          <div className='flex flex-col p-24 text-4xl text-slate-700'>
+      <section>
+        <div className='container mx-auto flex flex-col lg:flex-row items-center justify-between px-2 lg:px-16 m-2 lg:m-12 space-y-0'>
+          <div className='flex flex-col p-12 lg:p-24 text-4xl text-slate-700'>
             <div>
               <h1>
-                Hi There!{' '}
+                Hi There!
                 <span className='wave' role='img' aria-labelledby='wave'>
                   👋
                 </span>
@@ -22,21 +21,19 @@ const Home = () => {
             <h2 className='mt-2'>
               From <strong>Kolkata, India</strong>.
             </h2>
-            <span className='mt-6 text-5xl text-blue-900 font-[600]'>
-              {/* Fix the layout bug with typewriter effect below */}
-              {/* <Type /> */}
+            <span className='mt-6 text-3xl lg:text-4xl text-blue-900 font-[600]'>
+              <Type />
             </span>
           </div>
           <img
             src='/home-right.png'
             alt='home-right'
             width='400'
-            className='pl-4 absolute right-20 top-30'
+            className='pl-4'
           />
         </div>
         <Home2 />
       </section>
-      <Footer />
     </>
   )
 }

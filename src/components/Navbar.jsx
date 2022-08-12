@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom'
 const Header = () => {
   return (
     <>
-      <nav className='container p-4 pb-1 mx-auto border-b-2 border-gray-400'>
+      <nav className='container mx-auto p-7'>
         {/* Flex container */}
         <div className='flex items-center justify-between'>
           {/* Logo */}
@@ -22,28 +22,28 @@ const Header = () => {
             <li>
               <Link
                 to='/'
-                className='flex items-center hover:text-blue-900 hover-nav'>
-                <AiOutlineHome className='mr-1 ' /> Home
+                className='flex items-center hover:text-blue-900 nav'>
+                <AiOutlineHome className='mr-1' /> Home
               </Link>
             </li>
             <li>
               <Link
                 to='/about'
-                className='flex items-center hover:text-blue-900 hover-nav'>
+                className='flex items-center hover:text-blue-900 nav'>
                 <AiOutlineUser className='mr-1' /> About
               </Link>
             </li>
             <li>
               <Link
                 to='/project'
-                className='flex items-center hover:text-blue-900 hover-nav'>
+                className='flex items-center hover:text-blue-900 nav'>
                 <AiOutlineFundProjectionScreen className='mr-1' /> Projects
               </Link>
             </li>
             <li>
               <Link
                 to='/resume'
-                className='flex items-center hover:text-blue-900 hover-nav'>
+                className='flex items-center hover:text-blue-900 nav'>
                 <AiFillStar className='mr-1' /> Resume
               </Link>
             </li>

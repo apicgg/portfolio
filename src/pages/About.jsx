@@ -2,7 +2,6 @@ import aboutRight from '../Assets/about-right.svg'
 import TechStack from '../components/TechStack'
 import ToolStack from '../components/ToolStack'
 import Social from './Social'
-import Footer from '../components/Footer'
 
 const About = () => {
   return (
@@ -42,7 +41,6 @@ const About = () => {
         <ToolStack />
         <Social />
       </section>
-      <Footer />
     </>
   )
 }
