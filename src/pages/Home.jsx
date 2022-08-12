@@ -3,38 +3,38 @@ import Home2 from './Home2'
 
 const Home = () => {
   return (
-    <>
-      <section>
-        <div className='container mx-auto flex flex-col md:flex-row items-center justify-between px-2 md:px-16 m-2 md:m-12 space-y-0'>
-          <div className='flex flex-col p-12 md:p-24 text-4xl text-slate-700'>
-            <div>
-              <h1>
-                Hi There!
-                <span className='wave' role='img' aria-labelledby='wave'>
-                  👋
-                </span>
-              </h1>
-            </div>
-            <h2 className='mt-4'>
-              I'M <strong>ANURAG</strong>.
-            </h2>
-            <h2 className='mt-2'>
-              From <strong>Kolkata, India</strong>.
-            </h2>
-            <span className='mt-6 text-3xl md:text-4xl text-blue-900 font-[600]'>
-              <Type />
-            </span>
+    <section id='hero'>
+      <main className='hero-main'>
+        <article className='hero-main-article'>
+          <div>
+            <h1>
+              Hi There!
+              <span className='hero-wave' role='img' aria-labelledby='wave'>
+                👋
+              </span>
+            </h1>
           </div>
+          <h2 className='hero-main-intro'>
+            I'M <strong>ANURAG</strong>.
+          </h2>
+          <h2>
+            From <strong>Kolkata, India</strong>.
+          </h2>
+          <span className='hero-main-typewriter'>
+            <Type />
+          </span>
+        </article>
+        <div className='hero-img-box'>
           <img
+            className='hero-img'
             src='/home-right.png'
             alt='home-right'
             width='400'
-            className='pl-4'
           />
         </div>
-        <Home2 />
-      </section>
-    </>
+      </main>
+      <Home2 />
+    </section>
   )
 }
 
