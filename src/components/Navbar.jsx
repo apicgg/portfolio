@@ -33,7 +33,7 @@ const Header = () => {
                 <AiOutlineUser className='mr-1' /> About
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 to='/project'
                 className='flex items-center hover:text-blue-900 nav'>
@@ -46,7 +46,7 @@ const Header = () => {
                 className='flex items-center hover:text-blue-900 nav'>
                 <AiFillStar className='mr-1' /> Resume
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>
