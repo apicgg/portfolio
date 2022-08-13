@@ -10,7 +10,7 @@ const ToolStack = () => {
   return (
     <>
       <section className='flex flex-col items-center space-x-0 space-y-4'>
-        <div className='flex my-6 space-x-12'>
+        <div className='flex my-6 space-x-16'>
           <i className='tech-icon-container  py-4 border-2 border-darkGray rounded px-14 hover:scale-110 ease-in-out duration-300'>
             <SiLinux className='tech-icon' />
           </i>

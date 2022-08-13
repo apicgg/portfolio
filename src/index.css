@@ -1,48 +1,220 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/*
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights
+Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
+
+- Line heights
+Default: 1
+Small: 1.05
+Medium: 1.2
+Paragraph default: 1.6
+
+- Letter spacing
+-0.5px
+0.75px
+
+--- 02 COLORS
+
+- Primary: #e67e22
+- Tints:
+#fdf2e9
+#fae5d3
+#eb984e
+
+- Shades: 
+#cf711f
+#45260a
+
+- Accents:
+- Greys
+
+#888
+#767676 (lightest grey allowed on #fff)
+#6f6f6f (lightest grey allowed on #fdf2e9)
+#555
+#333
+
+--- 05 SHADOWS
+
+0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+
+--- 06 BORDER-RADIUS
+
+Default: 9px
+Medium: 11px
+
+--- 07 WHITESPACE
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #212529;
   background-color: #94a3b8;
 }
 
-.nav {
+/* General Style */
+
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.text-color {
+  color: #1e3a8a;
+}
+
+.heading-secondary {
+  font-size: 3.6rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.about-me {
+  font-size: 1.8rem;
+  padding-top: 2rem;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  row-gap: 9.6rem;
+  column-gap: 12.8rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid--self-center {
+  justify-self: center;
+}
+
+.pt-960 {
+  padding-top: 9.6rem;
+  padding-bottom: 9.6rem;
+}
+
+/* Header Section */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #94a3b8;
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+
+.logo {
+  font-size: 3rem;
+  text-decoration: none;
+  color: #1e3a8a;
+  font-weight: 700;
+  padding: 0 4.8rem;
+}
+
+.main-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+  list-style: none;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: flex;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.8rem;
   transition: all 0.3s;
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #1e3a8a;
 }
 
-/* .hover-nav {
-  display: inline-block;
-  position: relative;
-  transition: all 0.3s;
+.main-nav-link:hover,
+.main-nav-link:active {
+  transform: scale(1.2);
 }
 
-.hover-nav-underline:hover {
-  color: blue;
-  text-decoration: underline;
+/* Hero Section one */
+
+.hero-main {
+  background-color: #94a3b8;
 }
 
-.hover-nav-underline::after {
-  content: '';
-  position: absolute;
+.section-hero {
+  max-width: 130rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* grid-template-rows: 35rem; */
+  gap: 9.6rem;
+  align-items: center;
+  margin: 0 auto;
+  padding: 9.6rem 0;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  font-weight: 500;
+  padding-bottom: 1.2rem;
+}
+
+.hero-main-intro {
+  font-size: 4.4rem;
+  padding-bottom: 1.2rem;
+}
+
+.hero-text-box {
+  padding-left: 3.2rem;
+}
+
+.hero-main-typewriter {
+  display: block;
+  color: #212b57;
+  font-size: 3.2rem;
+  font-weight: 600;
+  padding-top: 4.8rem;
+}
+
+.hero-img {
   width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0px;
-  background-color: #0087ca;
-  transform-origin: bottom right;
-  transition: transform 0.5s ease-out;
 }
 
-.hover-nav-underline-animation:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-} */
+/* Wave animation */
 
-.wave {
+.hero-wave {
   animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
   animation-duration: 2.1s; /* Change to speed up or slow down */
   animation-iteration-count: infinite; /* Never stop waving :) */
@@ -75,6 +247,74 @@ body {
   100% {
     transform: rotate(0deg);
   }
+}
+
+/* Hero section two  */
+
+.section-intro {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+  padding: 9.6rem 3.2rem;
+}
+.section-intro-avatar-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-intro-avatar {
+  width: 70%;
+}
+
+/* Footer Section */
+
+.footer-section {
+  background-color: #64748b;
+  padding: 2.4rem 9.6rem;
+}
+
+.footer-main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-social-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6.4rem;
+}
+
+.footer-social-list {
+  list-style: none;
+}
+
+.footer-designer {
+  font-size: 1.4rem;
+  color: #000;
+  font-weight: 600;
+}
+
+.footer-social-icon {
+  height: 20px;
+  width: 20px;
+  color: #000;
+}
+
+/* About Section */
+
+.about-img {
+  width: 100%;
+}
+
+.about-tech {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 600;
 }
 
 .social-icon {
