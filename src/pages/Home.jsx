@@ -3,38 +3,38 @@ import Home2 from './Home2'
 
 const Home = () => {
   return (
-    <section id='hero'>
-      <main className='hero-main'>
-        <article className='hero-main-article'>
-          <div>
-            <h1>
+    <main className='hero-main'>
+      <section id='hero' className='section-hero'>
+        <div className='hero'>
+          <div className='hero-text-box'>
+            <h1 className='heading-primary'>
               Hi There!
               <span className='hero-wave' role='img' aria-labelledby='wave'>
                 👋
               </span>
             </h1>
+            <p className='hero-main-intro'>
+              I'M <strong>ANURAG</strong>.
+            </p>
+            <p className='hero-main-intro'>
+              From <strong>Kolkata,India</strong>.
+            </p>
+            <span className='hero-main-typewriter'>
+              <Type />
+            </span>
           </div>
-          <h2 className='hero-main-intro'>
-            I'M <strong>ANURAG</strong>.
-          </h2>
-          <h2>
-            From <strong>Kolkata, India</strong>.
-          </h2>
-          <span className='hero-main-typewriter'>
-            <Type />
-          </span>
-        </article>
+        </div>
         <div className='hero-img-box'>
           <img
             className='hero-img'
             src='/home-right.png'
-            alt='home-right'
-            width='400'
+            alt='Avatar in homepage'
+            width='400px'
           />
         </div>
-      </main>
+      </section>
       <Home2 />
-    </section>
+    </main>
   )
 }
 
