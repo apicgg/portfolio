@@ -84,6 +84,10 @@ body {
   margin: 0 auto;
 }
 
+.text-color {
+  color: #1e3a8a;
+}
+
 /* Header */
 
 .header {
@@ -208,4 +212,35 @@ body {
   100% {
     transform: rotate(0deg);
   }
+}
+
+/* Hero section two  */
+
+.section-intro {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+  padding: 9.6rem 0;
+}
+.section-intro-avatar-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-intro-avatar {
+  width: 70%;
+}
+
+.heading-secondary {
+  font-size: 3.6rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.about-me {
+  font-size: 1.6rem;
+  padding-top: 2rem;
+  line-height: 1.3;
 }

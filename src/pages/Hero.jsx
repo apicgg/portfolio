@@ -1,5 +1,5 @@
 import Type from '../components/Type'
-import Home2 from './Home2'
+import Hero2 from './Hero2'
 
 const Home = () => {
   return (
@@ -33,7 +33,7 @@ const Home = () => {
           />
         </div>
       </section>
-      <Home2 />
+      <Hero2 />
     </main>
   )
 }
