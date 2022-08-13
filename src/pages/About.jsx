@@ -20,8 +20,7 @@ const About = () => {
             I work as a Software Engineer in an IT organization. <br /> <br />
             I am currently pursuing Masters in Computer Software Engineering
             from BITS Pilani.
-            <br />I am also willing contribute to open-source projects in my
-            free time!
+            <br />I am also willing to contribute to open-source projects.
           </p>
         </div>
 
