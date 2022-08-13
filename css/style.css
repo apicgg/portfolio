@@ -92,7 +92,7 @@ body {
   justify-self: center;
 }
 
-/* Header */
+/* Header Section */
 
 .header {
   display: flex;
@@ -225,7 +225,7 @@ body {
   grid-template-columns: 2fr 1fr;
   gap: 9.6rem;
   align-items: center;
-  padding: 9.6rem 0;
+  padding: 9.6rem 3.2rem;
 }
 .section-intro-avatar-box {
   display: flex;
