@@ -8,14 +8,12 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
-    <>
-      <nav className='container mx-auto p-7'>
-        {/* Flex container */}
-        <div className='flex items-center justify-between'>
-          {/* Logo */}
-          <div className='text-3xl font-bold text-blue-900'>
-            <Link to='/'>AP.</Link>
-          </div>
+    <header className='header'>
+      <div className='logo-box'>
+        <Link className='logo' to='/'>
+          AP.
+        </Link>
+      </div>
 
           {/* Menu Items */}
           <ul className='flex items-center justify-between space-x-12 text-lg font-[500]'>
@@ -33,7 +31,7 @@ const Header = () => {
                 <AiOutlineUser className='mr-1' /> About
               </Link>
             </li>
-            {/* <li>
+            <li>
               <Link
                 to='/project'
                 className='flex items-center hover:text-blue-900 nav'>
@@ -46,11 +44,11 @@ const Header = () => {
                 className='flex items-center hover:text-blue-900 nav'>
                 <AiFillStar className='mr-1' /> Resume
               </Link>
-            </li> */}
+            </li>
           </ul>
         </div>
       </nav>
-    </>
+    </header>
   )
 }
 

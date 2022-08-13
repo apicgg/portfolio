@@ -16,8 +16,8 @@ import {
 const TechStack = () => {
   return (
     <>
-      <section className='flex flex-col items-center space-x-0 space-y-4'>
-        <div className='flex my-6 space-x-12'>
+      <section className='flex flex-col items-center just space-x-0 space-y-4'>
+        <div className='flex my-6 space-x-16'>
           <i className='py-4 border-2 border-darkGray rounded px-14 hover:scale-110 ease-in-out duration-300'>
             <SiHtml5 className='tech-icon' />
           </i>
@@ -35,7 +35,7 @@ const TechStack = () => {
           </i>
         </div>
 
-        <div className='flex py-4 space-x-12'>
+        <div className='flex py-4 space-x-16'>
           <i className='py-4 border-2 border-darkGray rounded px-14 hover:scale-110 ease-in-out duration-300'>
             <SiCplusplus className='tech-icon' />
           </i>

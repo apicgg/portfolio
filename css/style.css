@@ -58,10 +58,6 @@ Medium: 11px
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 * {
   margin: 0;
   padding: 0;
@@ -100,7 +96,7 @@ body {
 }
 
 .about-me {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   padding-top: 2rem;
   line-height: 1.4;
   font-weight: 500;
@@ -152,8 +148,9 @@ body {
 
 .main-nav-link:link,
 .main-nav-link:visited {
-  display: flex;
+  display: inline-block;
   text-decoration: none;
+  color: #333;
   font-weight: 500;
   font-size: 1.8rem;
   transition: all 0.3s;
@@ -315,45 +312,4 @@ body {
   font-size: 3rem;
   text-align: center;
   font-weight: 600;
-}
-
-.social-icon {
-  height: 25px;
-  width: 25px;
-}
-
-.social-icon-footer {
-  height: 20px;
-  width: 20px;
-}
-
-.tech-icon {
-  height: 70px;
-  width: 70px;
-}
-
-/* ! TODO */
-/* .tech-icon-container-aws:hover {
-  color: #bd7424;
-}
-
-.tech-icon-container-vscode:hover {
-  color: #0066b8;
-  transition: all 0.3s;
-}
-
-.tech-icon-container-postman:hover {
-  color: #ff6c37;
-} */
-
-/* ! TODO: Add animation on hover for about page */
-.tech-icons:hover {
-  transform: scale(1.05) !important;
-  overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
-}
-
-.footer-div {
-  display: grid;
-  grid-template-rows: 13.52fr 1fr;
 }
