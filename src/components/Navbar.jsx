@@ -23,7 +23,7 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link to='/about' className='main-nav-link'>
+            <Link to='/about' className='main-nav-link main-nav-link-sec'>
               <AiOutlineUser className='mr-1' /> About
             </Link>
           </li>

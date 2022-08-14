@@ -163,6 +163,13 @@ body {
   background-color: #1e3a8a;
 }
 
+.main-nav-link-sec:link,
+.main-nav-link-sec:visited {
+  box-shadow: inset 0 0 0 3px #1e3a8a;
+  background-color: #94a3b8;
+  color: #1e3a8a;
+}
+
 .main-nav-link:hover,
 .main-nav-link:active {
   transform: scale(1.2);
