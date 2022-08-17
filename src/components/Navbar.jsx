@@ -23,20 +23,24 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link to='/about' className='main-nav-link main-nav-link-sec'>
+            <Link to='/about' className='main-nav-link '>
               <AiOutlineUser className='mr-1' /> About
             </Link>
+          </li>
+          <li>
+            <a
+              href='https://apicgg.github.io/digital-resume/'
+              target='_blank'
+              className='main-nav-link main-nav-link-sec'>
+              <AiFillStar className='mr-1' /> Resume
+            </a>
           </li>
           {/* <li>
             <Link to='/project' className='main-nav-link'>
               <AiOutlineFundProjectionScreen className='mr-1' /> Projects
             </Link>
           </li>
-          <li>
-            <Link to='/resume' className='main-nav-link'>
-              <AiFillStar className='mr-1' /> Resume
-            </Link>
-          </li> */}
+           */}
         </ul>
       </nav>
     </header>
