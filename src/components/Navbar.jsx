@@ -29,7 +29,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              href='https://apicgg.github.io/digital-resume/'
+              href='https://digital-resume-mocha.vercel.app/'
               target='_blank'
               className='main-nav-link main-nav-link-sec'>
               <AiFillStar className='mr-1' /> Resume
