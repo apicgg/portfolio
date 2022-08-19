@@ -1,15 +1,13 @@
-import {
-  AiFillStar,
-  AiOutlineFundProjectionScreen,
-  AiOutlineHome,
-  AiOutlineUser,
-} from 'react-icons/ai'
+import { useState } from 'react'
+import { AiFillStar, AiOutlineHome, AiOutlineUser } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 
-const Header = () => {
+const Navbar = () => {
+  const [isMobile, setIsMobile] = useState(false)
+
   return (
     <nav className='bg-slate-400 h-24'>
-      <header className='container mx-auto md:pt-4 p-6 '>
+      <header className='container mx-auto md:pt-4 p-6 relative'>
         <div className='flex items-center justify-between'>
           <div>
             <Link
@@ -47,17 +45,34 @@ const Header = () => {
           {/* TODO */}
           {/* Hamburger Icon */}
           <button
-            // onClick={onClick}
-            id='menu-btn'
-            class='block hamburger md:hidden focus:outline-none'>
-            <span class='hamburger-top'></span>
-            <span class='hamburger-middle'></span>
-            <span class='hamburger-bottom'></span>
+            onClick={() => setIsMobile(!isMobile)}
+            className={`${
+              isMobile ? 'open' : null
+            } block hamburger md:hidden focus:outline-none`}>
+            <span className='hamburger-top'></span>
+            <span className='hamburger-middle'></span>
+            <span className='hamburger-bottom'></span>
           </button>
+        </div>
+
+        {/* Mobile Menu */}
+        <div className='md:hidden'>
+          <div
+            id='menu'
+            className={`${
+              isMobile ? 'flex' : 'hidden'
+            } absolute flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-slate-400 sm:w-auto sm:self-center left-6 right-6 drop-shadow-md`}>
+            <a href='/'>Home</a>
+            <a href='/about'>About</a>
+            <a href='https://apicgg.github.io/digital-resume/' target='_blank'>
+              {' '}
+              Resume
+            </a>
+          </div>
         </div>
       </header>
     </nav>
   )
 }
 
-export default Header
+export default Navbar
