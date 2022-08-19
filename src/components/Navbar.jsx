@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className='flex items-center justify-between'>
           <div>
             <Link
-              className='text-xl md:text-3xl text-blue-900 font-semibold md:font-bold'
+              className='text-2xl md:text-3xl text-blue-900 font-semibold md:font-bold'
               to='/'>
               AP.
             </Link>
