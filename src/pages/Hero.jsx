@@ -19,7 +19,7 @@ const Home = () => {
               I'M <strong>ANURAG</strong>.
             </p>
             <p className='text-2xl md:text-4xl py-2'>
-              From <strong>Kolkata,India</strong>.
+              From <strong>Bangalore, India</strong>.
             </p>
             <span className='text-[#212b57] text-3xl font-semibold'>
               <Type />
