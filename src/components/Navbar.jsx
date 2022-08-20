@@ -61,9 +61,9 @@ const Navbar = () => {
             id='menu'
             className={`${
               isMobile ? 'flex' : 'hidden'
-            } absolute flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-slate-400 sm:w-auto sm:self-center left-6 right-6 drop-shadow-md`}>
-            <a href='/'>Home</a>
-            <a href='/about'>About</a>
+            } absolute flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-slate-500 sm:w-auto sm:self-center left-6 right-6 drop-shadow-md`}>
+            <Link to='/'>Home</Link>
+            <Link to='/about'>About</Link>
             <a href='https://apicgg.github.io/digital-resume/' target='_blank'>
               {' '}
               Resume
