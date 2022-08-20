@@ -5,7 +5,7 @@ const Footer = () => {
   let currentYear = date.getFullYear()
   return (
     <footer className='bg-[#64748b] py-8 px-28 md:py-4 md:px-14'>
-      <div className='grid grid-rows-3 gap-y-5 md:grid-cols-3 md:grid-rows-none items-center justify-between'>
+      <div className='grid grid-rows-3 gap-y-5 md:grid-cols-3 md:grid-rows-none items-center justify-center md:justify-between'>
         <h3 className='font-semibold'>Developed by Anurag Pramanik</h3>
         <h3 className='place-self-center font-semibold'>
           Copyright © {currentYear} AP
