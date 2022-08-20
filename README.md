@@ -5,19 +5,18 @@
 
 My personal portfolio <a href="https://www.anuragp.dev/" target="_blank">anuragp.dev</a> which features my resume and technical skills.<br/>
 
-This project was built using these technologies.
+## This project was built using -
 
-- React.js
-- CSS
-- Tailwind CSS
-- Vite
-- Vercel
+- [React.js](https://reactjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
+- [Vercel](https://vercel.com/)
 
 ## 🛠 Installation and Setup Instructions
 
-1. Installation: `npm install`
+1. Installation: `yarn`
 
-2. In the project directory, you can run: `npm run dev`
+2. In the project directory, you can run: `yarn dev`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
