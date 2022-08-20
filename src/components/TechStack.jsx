@@ -16,40 +16,43 @@ import {
 const TechStack = () => {
   return (
     <>
-      <section className='flex flex-col items-center just space-x-0 space-y-4'>
-        <div className='flex my-6 space-x-16'>
+      <section className='flex flex-col items-center justify-between space-y-4'>
+        <div className='grid grid-cols-2 gap-5 md:flex md:flex-row my-6 md:space-x-16'>
           <i className='py-4 border-2 border-darkGray rounded px-14 hover:scale-110 ease-in-out duration-300'>
-            <SiHtml5 className='tech-icon' />
+            <SiHtml5 className='w-14 h-14' />
           </i>
           <i className='py-4 border-2 border-darkGray rounded px-14 hover:scale-110 ease-in-out duration-300'>
-            <DiCss3 className='tech-icon' />
+            <DiCss3 className='w-14 h-14' />
           </i>
           <i className='py-4 border-2 border-darkGray rounded px-14 hover:scale-110 ease-in-out duration-300'>
-            <DiJavascript1 className='tech-icon' />
+            <DiJavascript1 className='w-14 h-14' />
+          </i>
+          <i className='md:hidden py-4 border-2 border-darkGray rounded px-14 hover:scale-110 ease-in-out duration-300'>
+            <SiTailwindcss className='w-14 h-14' />
           </i>
           <i className='py-4 border-2 border-darkGray rounded px-14 hover:scale-110 ease-in-out duration-300'>
-            <DiNodejs className='tech-icon' />
+            <DiNodejs className='w-14 h-14' />
           </i>
           <i className='py-4 border-2 border-darkGray rounded px-14 hover:scale-110 ease-in-out duration-300'>
-            <DiReact className='tech-icon' />
+            <DiReact className='w-14 h-14' />
           </i>
         </div>
 
-        <div className='flex py-4 space-x-16'>
+        <div className='grid grid-cols-2 gap-5 md:flex md:flex-row my-6 md:space-x-16'>
           <i className='py-4 border-2 border-darkGray rounded px-14 hover:scale-110 ease-in-out duration-300'>
-            <SiCplusplus className='tech-icon' />
+            <SiCplusplus className='w-14 h-14' />
           </i>
           <i className='py-4 border-2 border-darkGray rounded px-14 hover:scale-110 ease-in-out duration-300'>
-            <SiNextdotjs className='tech-icon' />
+            <SiNextdotjs className='w-14 h-14' />
           </i>
           <i className='py-4 border-2 border-darkGray rounded px-14 hover:scale-110 ease-in-out duration-300'>
-            <DiMongodb className='tech-icon' />
+            <DiMongodb className='w-14 h-14' />
           </i>
           <i className='py-4 border-2 border-darkGray rounded px-14 hover:scale-110 ease-in-out duration-300'>
-            <DiGit className='tech-icon' />
+            <DiGit className='w-14 h-14' />
           </i>
-          <i className='py-4 border-2 border-darkGray rounded px-14 hover:scale-110 ease-in-out duration-300'>
-            <SiTailwindcss className='tech-icon' />
+          <i className='hidden md:block py-4 border-2 border-darkGray rounded px-14 hover:scale-110 ease-in-out duration-300'>
+            <SiTailwindcss className='w-14 h-14' />
           </i>
         </div>
       </section>
