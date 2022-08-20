@@ -15,12 +15,12 @@ const Home = () => {
                 👋
               </span>
             </h1>
-            <p className='text-2xl md:text-4xl'>
+            <p className='text-2xl md:text-4xl py-2'>
               I'M <strong>ANURAG</strong>.
             </p>
-            <p className='text-2xl md:text-4xl py-2'>
+            {/* <p className='text-2xl md:text-4xl py-2'>
               From <strong>Bangalore, India</strong>.
-            </p>
+            </p> */}
             <span className='text-[#212b57] text-3xl font-semibold'>
               <Type />
             </span>
