@@ -2,11 +2,10 @@ import myImg from '../../src/Assets/my-avatar.svg'
 import Tilt from 'react-parallax-tilt'
 
 const Hero2 = () => {
-  // TODO: Use props
   return (
-    <section className='max-w-3xl md:max-w-7xl mx-auto flex items-center justify-between flex-col-reverse md:flex-row md:gap-12 py-12 md:py-24 px-2'>
+    <section className='max-w-3xl md:max-w-7xl mx-auto flex items-center justify-between flex-col-reverse md:flex-row md:gap-12 py-12 pt-16 mt-16 md:py-24 px-2'>
       <div>
-        <h1 className='text-2xl md:text-4xl font-medium md:font-semibold text-center py-2'>
+        <h1 className='text-2xl md:text-4xl font-medium md:font-semibold text-center py-2 pt-6'>
           LET ME <span className='text-blue-900'>INTRODUCE</span> MYSELF
         </h1>
         <p className='text-base md:text-lg '>
