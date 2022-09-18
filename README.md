@@ -4,7 +4,7 @@
 </h2>
 
 My personal portfolio <a href="https://www.anuragp.dev/" target="_blank">anuragp.dev</a> which features my resume and technical skills.<br/>
-Feel free to fork this repo and make changes accordingly.
+Feel free to fork this repo and make changes accordingly. Thanks to [soumyajit4419/Portfolio](https://github.com/soumyajit4419/Portfolio) for the template.
 
 ## This project was built using -
 
