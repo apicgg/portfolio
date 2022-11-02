@@ -58,16 +58,10 @@ const Header = () => {
           </li>
           <li className='flex items-center justify-between font-medium text-sm md:text-base lg:text-xl lg:py-2 lg:px-4 lg:rounded-lg lg:bg-blue-900 lg:hover:scale-110 transition-all duration-300'>
             <AiOutlineUser className='mr-1 lg:block hidden' />{' '}
-            <Link
-              href='https://apicgg.github.io/digital-resume/'
-              className='hidden lg:block'
-            >
+            <Link href='/about' className='hidden lg:block'>
               About
             </Link>
-            <Link
-              href='https://apicgg.github.io/digital-resume/'
-              className='block lg:hidden coolButton'
-            >
+            <Link href='/about' className='block lg:hidden coolButton'>
               About
             </Link>
           </li>
@@ -76,12 +70,16 @@ const Header = () => {
             <Link
               href='https://apicgg.github.io/digital-resume/'
               className='hidden lg:block'
+              target='_blank'
+              rel='noopener noreferrer'
             >
               Resume
             </Link>
             <Link
               href='https://apicgg.github.io/digital-resume/'
               className='block lg:hidden coolButton'
+              target='_blank'
+              rel='noopener noreferrer'
             >
               Resume
             </Link>
