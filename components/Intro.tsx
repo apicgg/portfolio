@@ -3,7 +3,7 @@ import myImg from 'public/assets/my-avatar.svg'
 
 const Intro = () => {
   return (
-    <section className='max-w-5xl mx-auto flex items-center justify-between flex-col-reverse lg:flex-row md:gap-12 p-4 md:p-8'>
+    <section className='max-w-5xl mx-auto flex items-center justify-between flex-col-reverse lg:flex-row md:gap-12 p-4 md:p-8 mb-8'>
       <div className='px-4 md:px-0'>
         <h1 className='text-2xl md:text-4xl font-medium md:font-semibold text-center py-2 pt-6'>
           LET ME <span className='text-[#74C0FC]'>INTRODUCE</span> MYSELF
