@@ -6,10 +6,7 @@ export default function Home() {
     <>
       <Head>
         <meta name='author' content='Anurag Pramanik' />
-        <meta
-          name='description'
-          content='This is a portfolio website of Anurag'
-        />
+        <meta name='description' content='Anurag Pramanik - Website' />
         <link rel='favicon icon' href='/my-logo.svg' />
       </Head>
       <Hero />
