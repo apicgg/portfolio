@@ -4,7 +4,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section>
+    <section className='h-screen'>
       <h2 className='text-2xl md:text-3xl text-center font-semibold my-4'>
         <span className='text-[#74C0FC]'>Language, Library and Frameworks</span>
       </h2>
