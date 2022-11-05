@@ -2,7 +2,7 @@
   "name": "portfolio-next",
   "version": "0.1.0",
   "author": "Anurag Pramanik<p.anurag@outlook.com>",
-  "description": "Anurag's nextjs version of portfolio website",
+  "description": "Anurag's website",
   "private": true,
   "scripts": {
     "dev": "next dev",
