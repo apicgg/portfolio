@@ -12,6 +12,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <title>Anurag Pramanik - Homepage</title>
       </Head>
       <main className='bg-backgroundColor text-fontColor'>
+        // TODO: refactor the layout
         <Header />
         <Component {...pageProps} />
         <Footer />
