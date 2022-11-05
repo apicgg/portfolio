@@ -4,8 +4,8 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section className='h-screen'>
-      <h2 className='text-2xl md:text-3xl text-center font-semibold my-4'>
+    <section className='flex flex-col gap-10 h-screen'>
+      <h2 className='text-2xl md:text-3xl text-center font-semibold mt-10 pt-8'>
         <span className='text-[#74C0FC]'>Language, Library and Frameworks</span>
       </h2>
       <TechStack />
