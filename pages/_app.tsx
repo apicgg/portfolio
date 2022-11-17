@@ -3,6 +3,7 @@ import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import Header from 'components/Header'
 import Footer from 'components/Footer'
+import { Analytics } from '@vercel/analytics/react'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -16,6 +17,7 @@ export default function App({ Component, pageProps }: AppProps) {
         {/* TODO: refactor the layout */}
         <Header />
         <Component {...pageProps} />
+        <Analytics />
         <Footer />
       </main>
     </>
