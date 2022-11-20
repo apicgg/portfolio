@@ -1,9 +1,10 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
-import Header from 'components/Header'
-import Footer from 'components/Footer'
+// import Header from 'components/Header'
+// import Footer from 'components/Footer'
 import { Analytics } from '@vercel/analytics/react'
+import Layout from 'components/Layout'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -13,13 +14,13 @@ export default function App({ Component, pageProps }: AppProps) {
         <title>Anurag Pramanik - Homepage</title>
         <link rel='favicon icon' href='/my-logo.svg' />
       </Head>
-      <main className='bg-backgroundColor text-fontColor'>
+      <Layout>
         {/* TODO: refactor the layout */}
-        <Header />
+        {/* <Header /> */}
         <Component {...pageProps} />
         <Analytics />
-        <Footer />
-      </main>
+        {/* <Footer /> */}
+      </Layout>
     </>
   )
 }
