@@ -26,4 +26,8 @@ The page will reload if you make edits.
 
 MIT License.
 
-Please review the license and remove all of my personal information (resume, images, etc.).
+1. You are free to use this code as inspiration.
+2. Please do not copy it directly.
+3. Crediting the author is appreciated.
+
+Please review the [License](https://github.com/apicgg/portfolio/blob/main/LICENSE.md) and remove all of my personal information (resume, images, etc.).
