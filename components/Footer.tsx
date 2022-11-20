@@ -14,7 +14,7 @@ const Footer = () => {
         <ul className='flex items-center justify-center gap-10 font-semibold'>
           <li>
             <Link
-              href='https://github.com/apicgg'
+              href='https://github.com/apicgg/portfolio'
               target='_blank'
               rel='noopener noreferrer'
             >
