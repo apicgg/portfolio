@@ -16,8 +16,7 @@ const Footer = () => {
             <Link
               href='https://github.com/apicgg/portfolio'
               target='_blank'
-              rel='noopener noreferrer'
-            >
+              rel='noopener noreferrer'>
               <FaGithub className='h-5 w-5' />
             </Link>
           </li>
@@ -25,8 +24,7 @@ const Footer = () => {
             <Link
               href='https://www.linkedin.com/in/anurag-pramanik-345843125/'
               target='_blank'
-              rel='noopener noreferrer'
-            >
+              rel='noopener noreferrer'>
               <FaLinkedinIn className='h-5 w-5' />
             </Link>
           </li>
@@ -34,8 +32,7 @@ const Footer = () => {
             <Link
               href='https://twitter.com/titas_p'
               target='_blank'
-              rel='noopener noreferrer'
-            >
+              rel='noopener noreferrer'>
               <FaTwitter className='h-5 w-5' />
             </Link>
           </li>

@@ -21,12 +21,10 @@ const Header = () => {
           }}
           transition={{
             duration: 1.5,
-          }}
-        >
+          }}>
           <Link
             className='text-2xl lg:text-3xl font-normal lg:font-medium pl-2'
-            href='/'
-          >
+            href='/'>
             AP.
           </Link>
         </motion.div>
@@ -45,8 +43,7 @@ const Header = () => {
           transition={{
             duration: 1.5,
           }}
-          className='flex items-center gap-2 lg:gap-10'
-        >
+          className='flex items-center gap-2 lg:gap-10'>
           <li className='flex items-center justify-between font-medium text-base lg:text-xl lg:py-2 lg:px-4 lg:rounded-lg lg:bg-blue-900 lg:hover:scale-110 transition-all duration-300'>
             <AiOutlineHome className='mr-1 lg:block hidden' />{' '}
             <Link href='/' className='hidden lg:block'>
@@ -71,16 +68,14 @@ const Header = () => {
               href='https://apicgg.github.io/digital-resume/'
               className='hidden lg:block'
               target='_blank'
-              rel='noopener noreferrer'
-            >
+              rel='noopener noreferrer'>
               Resume
             </Link>
             <Link
               href='https://apicgg.github.io/digital-resume/'
               className='block lg:hidden coolButton'
               target='_blank'
-              rel='noopener noreferrer'
-            >
+              rel='noopener noreferrer'>
               Resume
             </Link>
           </li>
