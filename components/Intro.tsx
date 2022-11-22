@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import myImg from 'public/assets/my-avatar.svg'
 
 const Intro = () => {
@@ -14,15 +15,28 @@ const Intro = () => {
           graduation.
           <br />
           <br />I am fluent in
-          <i>
-            <b className='text-[#74C0FC]'> HTML, CSS and JavaScript. </b>
-          </i>
+          <em>
+            <strong className='text-[#74C0FC]'>
+              {' '}
+              HTML, CSS and JavaScript.{' '}
+            </strong>
+          </em>
+          <br />
+          <br />
+          <span>
+            {/* TODO: Make the resume link more visually appealing. */}
+            Check out my{' '}
+            <Link href='https://apicgg.github.io/digital-resume/assets/Anurag%20Pramanik%20Resume.pdf'>
+              Resume
+            </Link>{' '}
+            for complete detail of my skills.
+          </span>
           <br />
           <br />
           My field of interest is to build full-stack web applications. And also
           in areas related to modern web technologies like &nbsp;
           <i>
-            <b className='text-[#74C0FC]'>Next.js, Deno etc. </b>
+            <b className='text-[#74C0FC]'>Next.js. </b>
           </i>
         </p>
       </div>
