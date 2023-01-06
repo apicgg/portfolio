@@ -8,7 +8,7 @@ import {
 
 const ToolStack = () => {
   return (
-    <section className="flex flex-col items-center justify-between space-y-4">
+    <section className="flex flex-col items-center justify-between space-y-4 py-8">
       <div className="grid grid-cols-2 gap-5 lg:flex lg:flex-row my-6 lg:space-x-16">
         <i className="py-4 border-2 border-[#474747] rounded px-14 hover:scale-110 ease-in-out duration-300">
           <SiLinux className="w-14 h-14" color="gray" />
