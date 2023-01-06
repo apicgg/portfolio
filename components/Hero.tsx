@@ -6,10 +6,9 @@ import Intro from "./Intro";
 import TechStack from "./TechStack";
 import ToolStack from "./ToolStack";
 
-// TODO: Add scroll snap
 const Hero = () => {
   const [text] = useTypewriter({
-    words: ["Hi, I'm Anurag.", "guy-who-loves-coffee.tsx", "<AndCodes />"],
+    words: ["Hi, I'm Anurag.", "React", "Next.js", "MERN Stack"],
     loop: true,
     delaySpeed: 1500,
   });
