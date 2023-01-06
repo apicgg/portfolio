@@ -56,7 +56,7 @@ const Header = () => {
               Home
             </Link>
           </li>
-          <li className="flex items-center justify-between font-medium text-sm md:text-base lg:text-xl lg:py-2 lg:px-4 lg:rounded-lg lg:bg-blue-900 lg:hover:scale-110 transition-all duration-300">
+          {/* <li className="flex items-center justify-between font-medium text-sm md:text-base lg:text-xl lg:py-2 lg:px-4 lg:rounded-lg lg:bg-blue-900 lg:hover:scale-110 transition-all duration-300">
             <AiOutlineUser className="mr-1 lg:block hidden" />{" "}
             <Link href="/skills" className="hidden lg:block">
               Skills
@@ -64,7 +64,7 @@ const Header = () => {
             <Link href="/skills" className="block lg:hidden coolButton">
               Skills
             </Link>
-          </li>
+          </li> */}
           <li className="flex items-center justify-between font-medium text-sm md:text-base lg:text-xl lg:py-2 lg:px-4 lg:rounded-lg lg:bg-blue-900 lg:hover:scale-110 transition-all duration-300">
             <AiFillStar className="mr-1 lg:block hidden" />{" "}
             <Link
