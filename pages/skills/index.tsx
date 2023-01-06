@@ -2,6 +2,7 @@ import TechStack from "components/TechStack";
 import ToolStack from "components/ToolStack";
 import React from "react";
 
+// ! TODO: fix the layout on small height screen
 const Skills = () => {
   return (
     <section className="flex flex-col gap-10 lg:h-screen lg:items-center lg:justify-center">
