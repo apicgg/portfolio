@@ -14,9 +14,9 @@ Feel free to fork this repo and make changes accordingly.
 
 ## 🛠 Installation and Setup Instructions
 
-1. Installation: `yarn install`
+1. Installation: `pnpm install`
 
-2. In the project directory, you can run: `yarn dev`
+2. In the project directory, you can run: `pnpm dev`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
