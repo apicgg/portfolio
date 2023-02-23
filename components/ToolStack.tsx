@@ -4,7 +4,7 @@ import {
   SiPostman,
   SiVercel,
   SiAmazonaws,
-} from "react-icons/si";
+} from 'react-icons/si';
 
 const ToolStack = () => {
   return (

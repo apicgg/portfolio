@@ -5,13 +5,13 @@ import {
   DiNodejs,
   DiMongodb,
   DiGit,
-} from "react-icons/di";
+} from 'react-icons/di';
 import {
   SiHtml5,
   SiTailwindcss,
   SiNextdotjs,
   SiTypescript,
-} from "react-icons/si";
+} from 'react-icons/si';
 
 const TechStack = () => {
   return (

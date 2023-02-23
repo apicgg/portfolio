@@ -1,5 +1,5 @@
-import Link from "next/link";
-import { FaGithub, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import Link from 'next/link';
+import { FaGithub, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
 
 const Footer = () => {
   let date = new Date();

@@ -1,14 +1,14 @@
-import Image from "next/image";
-import { Cursor, useTypewriter } from "react-simple-typewriter";
-import BackgroundCircle from "components/BackgroundCircle";
-import avatar from "public/assets/home-right.png";
-import Intro from "./Intro";
-import TechStack from "./TechStack";
-import ToolStack from "./ToolStack";
+import Image from 'next/image';
+import { Cursor, useTypewriter } from 'react-simple-typewriter';
+import BackgroundCircle from 'components/BackgroundCircle';
+import avatar from 'public/assets/home-right.png';
+import Intro from './Intro';
+import TechStack from './TechStack';
+import ToolStack from './ToolStack';
 
 const Hero = () => {
   const [text] = useTypewriter({
-    words: ["Hi, I'm Anurag.", "React", "Next.js", "MERN Stack"],
+    words: ["Hi, I'm Anurag.", 'React', 'Next.js', 'MERN Stack'],
     loop: true,
     delaySpeed: 1500,
   });
@@ -18,7 +18,7 @@ const Hero = () => {
       <div className="flex flex-col h-screen space-y-4 items-center justify-center text-center overflow-hidden">
         <BackgroundCircle />
         <div className="rounded-full h-32 w-32 mx-auto object-cover">
-          <Image src={avatar} alt="Anurag avatar" />
+          <Image src={avatar} alt="Anurag avatar" priority />
         </div>
 
         <div>

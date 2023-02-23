@@ -1,6 +1,6 @@
-import Image from "next/image";
-import Link from "next/link";
-import myImg from "public/assets/my-avatar.svg";
+import Image from 'next/image';
+import Link from 'next/link';
+import myImg from 'public/assets/my-avatar.svg';
 
 const Intro = () => {
   return (
@@ -17,18 +17,18 @@ const Intro = () => {
           <br />I am fluent in
           <em>
             <strong className="text-[#74C0FC]">
-              {" "}
-              HTML, CSS and JavaScript.{" "}
+              {' '}
+              HTML, CSS and JavaScript.{' '}
             </strong>
           </em>
           <br />
           <br />
           <span>
             {/* TODO: Make the resume link more visually appealing. */}
-            Check out my{" "}
+            Check out my{' '}
             <Link href="https://apicgg.github.io/digital-resume/assets/Anurag%20Pramanik%20Resume.pdf">
               Resume
-            </Link>{" "}
+            </Link>{' '}
             for complete detail of my skills.
           </span>
           <br />
@@ -42,7 +42,12 @@ const Intro = () => {
       </div>
 
       <section className="flex items-center justify-center">
-        <Image src={myImg} alt="My Avatar" style={{ width: "250px" }} />
+        <Image
+          src={myImg}
+          alt="My Avatar"
+          style={{ width: '250px' }}
+          priority
+        />
       </section>
     </section>
   );

@@ -1,6 +1,6 @@
-import TechStack from "components/TechStack";
-import ToolStack from "components/ToolStack";
-import React from "react";
+import TechStack from 'components/TechStack';
+import ToolStack from 'components/ToolStack';
+import React from 'react';
 
 const Skills = () => {
   return (
