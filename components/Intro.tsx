@@ -24,7 +24,6 @@ const Intro = () => {
           <br />
           <br />
           <span>
-            {/* TODO: Make the resume link more visually appealing. */}
             Check out my{' '}
             <Link href="https://apicgg.github.io/digital-resume/assets/Anurag%20Pramanik%20Resume.pdf">
               Resume
