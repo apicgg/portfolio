@@ -11,9 +11,9 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <main className={inter.className}>
       <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
         <title>Anurag Pramanik - Homepage</title>
-        <link rel="favicon icon" href="/my-logo.svg" />
+        <link rel='favicon icon' href='/my-logo.svg' />
       </Head>
       <Layout>
         <Component {...pageProps} />
