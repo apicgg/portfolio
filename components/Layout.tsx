@@ -1,6 +1,6 @@
-import React from 'react';
-import Footer from './Footer';
-import Header from './Header';
+import React from "react";
+import Footer from "./Footer";
+import Header from "./Header";
 
 type Props = {
   children: React.ReactNode;
@@ -8,7 +8,7 @@ type Props = {
 
 const Layout = (props: Props) => {
   return (
-    <div className='bg-backgroundColor text-fontColor'>
+    <div className="bg-backgroundColor text-fontColor">
       <Header />
       <main>{props.children}</main>
       <Footer />
