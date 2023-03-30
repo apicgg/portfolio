@@ -1,12 +1,10 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { AiFillStar } from "react-icons/ai";
 
-// TODO: make header sticky and more intuitive
 const Header = () => {
   return (
-    <header className="md:p-8 p-4 max-w-5xl mx-auto">
-      <div className="flex items-center justify-between">
+    <header className="fixed w-full backdrop-blur-md">
+      <div className="flex items-center justify-between max-w-5xl mx-auto p-2">
         <motion.div
           initial={{
             x: -500,
@@ -47,11 +45,10 @@ const Header = () => {
           }}
           className="flex items-center gap-2 lg:gap-10"
         >
-          <li className="flex items-center justify-between font-medium text-sm md:text-base lg:text-xl lg:py-2 lg:px-4 lg:rounded-lg lg:bg-blue-900 lg:hover:scale-110 transition-all duration-300">
-            <AiFillStar className="mr-1 lg:block hidden" />{" "}
+          <li className="flex items-center justify-between font-medium text-sm md:text-base lg:text-xl lg:py-2 lg:px-4 lg:rounded-lg lg:hover:scale-110 transition-all duration-300">
             <Link
               href="https://apicgg.github.io/digital-resume/"
-              className="hidden lg:block"
+              className="hidden lg:block coolButton"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Anurag Pramanik resume website"
