@@ -4,6 +4,6 @@
 
 @layer components {
   .coolButton {
-    @apply px-4 py-2 border border-[#242424] rounded-full text-xs md:text-base tracking-widest text-gray-400 transition-all hover:border-[#f7ab0a]/40 hover:text-[#f7ab0a]/40 cursor-pointer;
+    @apply px-4 py-2 border border-[#242424] rounded-full text-xs md:text-base tracking-widest text-gray-400 transition-all hover:border-[#F9C34D]/90 hover:text-[#F9C34D]/90 cursor-pointer;
   }
 }
