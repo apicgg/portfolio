@@ -1,6 +1,4 @@
-import Image from "next/image";
 import Link from "next/link";
-import myImg from "public/assets/my-avatar.svg";
 
 const Intro = () => {
   return (
@@ -18,7 +16,7 @@ const Intro = () => {
           <em>
             <strong className="text-[#74C0FC]">
               {" "}
-              HTML, CSS, JavaScript and TypeScript.{" "}
+              React, Next.js & TypeScript.{" "}
             </strong>
           </em>
           <br />
@@ -26,8 +24,11 @@ const Intro = () => {
           <span>
             Check out my{" "}
             <Link
-              href="https://apicgg.github.io/digital-resume/assets/Anurag%20Pramanik%20Resume.pdf"
+              className="hover:text-[#F9C34D] transition-colors duration-500 ease-out "
+              href="https://apicgg.github.io/digital-resume/"
               aria-label="Anurag Pramanik resume website"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Resume
             </Link>{" "}
@@ -43,14 +44,14 @@ const Intro = () => {
         </p>
       </div>
 
-      <section className="flex items-center justify-center">
+      {/* <section className="flex items-center justify-center">
         <Image
           src={myImg}
           alt="My Avatar"
           style={{ width: "250px" }}
           priority
         />
-      </section>
+      </section> */}
     </section>
   );
 };
