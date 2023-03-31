@@ -1,9 +1,10 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
+import ThemeToggle from "./ThemeToggleButton";
 
 const Header = () => {
   return (
-    <header className="fixed w-full backdrop-blur-md">
+    <header className="fixed w-full backdrop-blur-md z-20">
       <div className="flex items-center justify-between max-w-5xl mx-auto p-2">
         <motion.div
           initial={{
@@ -45,6 +46,7 @@ const Header = () => {
           }}
           className="flex items-center gap-2 lg:gap-10"
         >
+          <ThemeToggle />
           <li className="flex items-center justify-between font-medium text-sm md:text-base lg:text-xl lg:py-2 lg:px-4 lg:rounded-lg lg:hover:scale-110 transition-all duration-300">
             <Link
               href="https://apicgg.github.io/digital-resume/"

@@ -5,7 +5,9 @@ const Intro = () => {
     <section className="max-w-5xl mx-auto flex items-center justify-between flex-col-reverse lg:flex-row md:gap-12 p-4 md:p-8 mb-8">
       <div className="px-4 md:px-0">
         <h1 className="text-2xl md:text-4xl font-medium md:font-semibold text-center py-2 pt-6">
-          LET ME <span className="text-[#74C0FC]">INTRODUCE</span> MYSELF
+          LET ME{" "}
+          <span className="dark:text-[#74C0FC] text-[#1C3782]">INTRODUCE</span>{" "}
+          MYSELF
         </h1>
         <p className="text-base md:text-lg ">
           I have over 4 years of experience as a Software Engineer. I fell in
@@ -14,7 +16,7 @@ const Intro = () => {
           <br />
           <br />I am fluent in
           <em>
-            <strong className="text-[#74C0FC]">
+            <strong className="dark:text-[#74C0FC] text-[#1C3782]">
               {" "}
               React, Next.js & TypeScript.{" "}
             </strong>
@@ -24,7 +26,7 @@ const Intro = () => {
           <span>
             Check out my{" "}
             <Link
-              className="hover:text-[#F9C34D] transition-colors duration-500 ease-out "
+              className="dark:hover:text-[#F9C34D] hove:text-[#1C3782] transition-colors duration-500 ease-out "
               href="https://apicgg.github.io/digital-resume/"
               aria-label="Anurag Pramanik resume website"
               target="_blank"
@@ -39,19 +41,10 @@ const Intro = () => {
           My field of interest is to build full-stack web applications. And also
           in areas related to modern web technologies like &nbsp;
           <i>
-            <b className="text-[#74C0FC]">Next.js. </b>
+            <b className="dark:text-[#74C0FC] text-[#1C3782]">Next.js. </b>
           </i>
         </p>
       </div>
-
-      {/* <section className="flex items-center justify-center">
-        <Image
-          src={myImg}
-          alt="My Avatar"
-          style={{ width: "250px" }}
-          priority
-        />
-      </section> */}
     </section>
   );
 };
