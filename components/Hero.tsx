@@ -22,7 +22,7 @@ const Hero = () => {
         </div>
 
         <div>
-          <h2 className="text-sm uppercase text-gray-400 p-2 tracking-[15px]">
+          <h2 className="text-sm uppercase dark:text-gray-400 text-zinc-900 p-2 tracking-[15px]">
             Software Engineer
           </h2>
           <h1 className="text-xl md:text-2xl lg:text-3xl font-semibold px-10">
@@ -33,11 +33,14 @@ const Hero = () => {
       </div>
       <Intro />
       <h2 className="text-2xl md:text-3xl text-center font-semibold mt-10 pt-8">
-        <span className="text-[#74C0FC]">Language, Library and Frameworks</span>
+        <span className="dark:text-[#74C0FC] text-[#1C3782]">
+          Language, Library and Frameworks
+        </span>
       </h2>
       <TechStack />
-      <h2 className="text-xl md:text-3xl text-center font-semibold mt-4 pt-6 text-fontColor">
-        Other <span className="text-[#74C0FC]">Tools</span> I use
+      <h2 className="text-xl md:text-3xl text-center font-semibold mt-4 pt-6">
+        Other <span className="dark:text-[#74C0FC] text-[#1C3782]">Tools</span>{" "}
+        I use
       </h2>
       <ToolStack />
     </>
