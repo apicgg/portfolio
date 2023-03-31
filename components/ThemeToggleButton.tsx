@@ -1,12 +1,10 @@
-import { useEffect, useState } from "react";
-import { IoMoon, IoSunny } from "react-icons/io5/index.js";
-import { DarkModeSwitch } from "react-toggle-dark-mode";
+import React, { useEffect, useState } from "react";
+import { IoSunny, IoMoon } from "react-icons/io5/index.js";
 
 const themes = ["light", "dark"];
 
 export default function ThemeToggle() {
-  // const [isMounted, setIsMounted] = useState(false);
-  const [isDarkMode, setDarkMode] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
   const [theme, setTheme] = useState(() => {
     if (typeof window !== "undefined") {
       if (
@@ -21,11 +19,10 @@ export default function ThemeToggle() {
       return "light";
     }
   });
-  const toggleTheme = (checked: boolean) => {
+  const toggleTheme = () => {
     const t = theme === "light" ? "dark" : "light";
     localStorage.setItem("theme", t);
     setTheme(t);
-    setDarkMode(checked);
   };
 
   useEffect(() => {
@@ -37,16 +34,29 @@ export default function ThemeToggle() {
     }
   }, [theme]);
 
-  // useEffect(() => {
-  //   setIsMounted(true);
-  // }, []);
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
 
-  return (
-    <DarkModeSwitch
-      checked={isDarkMode}
-      onChange={toggleTheme}
-      moonColor="black"
-      sunColor="white"
-    />
+  return isMounted ? (
+    <div className="inline-flex items-center p-[1px] rounded-3xl bg-orange-300 dark:bg-zinc-600">
+      {themes.map((t) => {
+        const checked = t === theme;
+        return (
+          <button
+            key={t}
+            className={`${
+              checked ? "bg-white text-black" : ""
+            } cursor-pointer rounded-3xl p-2`}
+            onClick={toggleTheme}
+            aria-label="Toggle theme"
+          >
+            {t === "light" ? <IoSunny /> : <IoMoon />}
+          </button>
+        );
+      })}
+    </div>
+  ) : (
+    <div />
   );
 }
