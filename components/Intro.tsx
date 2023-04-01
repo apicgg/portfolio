@@ -10,9 +10,9 @@ const Intro = () => {
           MYSELF
         </h1>
         <p className="text-base md:text-lg ">
-          I have over 4 years of experience as a Software Engineer. I fell in
-          love with programming especially with web development after my
-          graduation.
+          Hey, I&apos;m Anurag Pramanik. I have over 4 years of experience as a
+          Software Engineer. I fell in love with programming especially with web
+          development after my graduation.
           <br />
           <br />I am fluent in
           <em>
