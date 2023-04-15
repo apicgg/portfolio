@@ -2,11 +2,11 @@ import Link from "next/link";
 
 const Intro = () => {
   return (
-    <section className="max-w-5xl mx-auto flex items-center justify-between flex-col-reverse lg:flex-row md:gap-12 p-4 md:p-8 mb-8">
+    <section className="mx-auto mb-8 flex max-w-5xl flex-col-reverse items-center justify-between p-4 md:gap-12 md:p-8 lg:flex-row">
       <div className="px-4 md:px-0">
-        <h1 className="text-2xl md:text-4xl font-medium md:font-semibold text-center py-2 pt-6">
+        <h1 className="py-2 pt-6 text-center text-2xl font-medium md:text-4xl md:font-semibold">
           LET ME{" "}
-          <span className="dark:text-[#74C0FC] text-[#1C3782]">INTRODUCE</span>{" "}
+          <span className="text-[#1C3782] dark:text-[#74C0FC]">INTRODUCE</span>{" "}
           MYSELF
         </h1>
         <p className="text-base md:text-lg ">
@@ -16,7 +16,7 @@ const Intro = () => {
           <br />
           <br />I am fluent in
           <em>
-            <strong className="dark:text-[#74C0FC] text-[#1C3782]">
+            <strong className="text-[#1C3782] dark:text-[#74C0FC]">
               {" "}
               React, Next.js & TypeScript.{" "}
             </strong>
@@ -26,7 +26,7 @@ const Intro = () => {
           <span>
             Check out my{" "}
             <Link
-              className="dark:hover:text-[#F9C34D] hove:text-[#1C3782] transition-colors duration-500 ease-out "
+              className="hove:text-[#1C3782] transition-colors duration-500 ease-out dark:hover:text-[#F9C34D] "
               href="https://apicgg.github.io/digital-resume/"
               aria-label="Anurag Pramanik resume website"
               target="_blank"
@@ -41,7 +41,7 @@ const Intro = () => {
           My field of interest is to build full-stack web applications. And also
           in areas related to modern web technologies like &nbsp;
           <i>
-            <b className="dark:text-[#74C0FC] text-[#1C3782]">Next.js. </b>
+            <b className="text-[#1C3782] dark:text-[#74C0FC]">Next.js. </b>
           </i>
         </p>
       </div>

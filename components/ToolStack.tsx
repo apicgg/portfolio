@@ -9,21 +9,21 @@ import {
 const ToolStack = () => {
   return (
     <section className="flex flex-col items-center justify-between space-y-4 py-8">
-      <div className="grid grid-cols-2 gap-5 lg:flex lg:flex-row my-6 lg:space-x-16">
-        <i className="py-4 border-2 border-[#474747] rounded px-14 hover:scale-110 ease-in-out duration-300">
-          <SiLinux className="w-14 h-14" color="gray" />
+      <div className="my-6 grid grid-cols-2 gap-5 lg:flex lg:flex-row lg:space-x-16">
+        <i className="rounded border-2 border-[#474747] py-4 px-14 duration-300 ease-in-out hover:scale-110">
+          <SiLinux className="h-14 w-14" color="gray" />
         </i>
-        <i className="py-4 border-2 border-[#474747] rounded px-14 hover:scale-110 ease-in-out duration-300">
-          <SiAmazonaws className="w-14 h-14" color="gray" />
+        <i className="rounded border-2 border-[#474747] py-4 px-14 duration-300 ease-in-out hover:scale-110">
+          <SiAmazonaws className="h-14 w-14" color="gray" />
         </i>
-        <i className="py-4 border-2 border-[#474747] rounded px-14 hover:scale-110 ease-in-out duration-300">
-          <SiVisualstudiocode className="w-14 h-14" color="gray" />
+        <i className="rounded border-2 border-[#474747] py-4 px-14 duration-300 ease-in-out hover:scale-110">
+          <SiVisualstudiocode className="h-14 w-14" color="gray" />
         </i>
-        <i className="hidden py-4 border-2 border-[#474747] rounded px-14 hover:scale-110 ease-in-out duration-300">
-          <SiPostman className="w-14 h-14" color="gray" />
+        <i className="hidden rounded border-2 border-[#474747] py-4 px-14 duration-300 ease-in-out hover:scale-110">
+          <SiPostman className="h-14 w-14" color="gray" />
         </i>
-        <i className="py-4 border-2 border-[#474747] rounded px-14 hover:scale-110 ease-in-out duration-300">
-          <SiVercel className="w-14 h-14" color="gray" />
+        <i className="rounded border-2 border-[#474747] py-4 px-14 duration-300 ease-in-out hover:scale-110">
+          <SiVercel className="h-14 w-14" color="gray" />
         </i>
       </div>
     </section>

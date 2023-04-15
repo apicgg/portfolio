@@ -8,7 +8,7 @@ type Props = {
 
 const Layout = (props: Props) => {
   return (
-    <div className="bg-orange-50 dark:bg-zinc-900 text-zinc-900 dark:text-zinc-300 break-words leading-6 transition-colors duration-500">
+    <div className="break-words bg-orange-50 leading-6 text-zinc-900 transition-colors duration-500 dark:bg-zinc-900 dark:text-zinc-300">
       <Header />
       <main>{props.children}</main>
       <Footer />
