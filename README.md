@@ -6,7 +6,7 @@
 My personal portfolio <a href="https://www.anuragp.dev/">anuragp.dev</a> which features my resume and technical skills.<br/>
 Feel free to fork this repo and make changes accordingly.
 
-## This project was built using -
+## 🎯 This project was built using -
 
 - [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
@@ -14,13 +14,16 @@ Feel free to fork this repo and make changes accordingly.
 
 ## 🛠 Installation and Setup Instructions
 
-1. Installation: `pnpm install`
-
-2. In the project directory, you can run: `pnpm dev`
+1. Installation: `npm install`
+2. In the project directory run: `npm run dev`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.
+
+## 💫 Inspiration
+
+[Julius Marminge](https://github.com/juliusmarminge/jumr.dev)
 
 ## License
 
