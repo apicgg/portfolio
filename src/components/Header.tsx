@@ -47,7 +47,7 @@ const Header = () => {
           className="flex items-center gap-2 lg:gap-10"
         >
           <ThemeToggle />
-          <li className="flex items-center justify-between text-sm font-medium transition-all duration-300 md:text-base lg:rounded-lg lg:py-2 lg:px-4 lg:text-xl lg:hover:scale-110">
+          <li className="flex items-center justify-between text-sm font-medium transition-all duration-300 md:text-base lg:rounded-lg lg:px-4 lg:py-2 lg:text-xl lg:hover:scale-110">
             <Link
               href="https://apicgg.github.io/digital-resume/"
               className="coolButton hidden lg:block"

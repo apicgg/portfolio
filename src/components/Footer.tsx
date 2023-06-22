@@ -1,11 +1,11 @@
 import Link from "next/link";
-import { FaGithub, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   let date = new Date();
   let currentYear = date.getFullYear();
   return (
-    <footer className="py-8 px-12 md:px-14">
+    <footer className="px-12 py-8 md:px-14">
       <div className="grid grid-rows-3 items-center justify-center gap-y-5 md:grid-cols-3 md:grid-rows-none md:justify-between">
         <h3 className="font-semibold">Developed by Anurag</h3>
         <h3 className="place-self-center font-semibold">

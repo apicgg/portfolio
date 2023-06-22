@@ -1,9 +1,9 @@
-import "../styles/globals.css";
+import { Inter } from "@next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import type { AppProps } from "next/app";
 import Head from "next/head";
-import { Analytics } from "@vercel/analytics/react";
-import Layout from "components/Layout";
-import { Inter } from "@next/font/google";
+import Layout from "../components/Layout";
+import "../styles/globals.css";
 
 const inter = Inter({ subsets: ["latin"], weight: ["300", "400", "500"] });
 

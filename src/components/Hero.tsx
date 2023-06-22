@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { Cursor, useTypewriter } from "react-simple-typewriter";
-import BackgroundCircle from "components/BackgroundCircle";
 import avatar from "public/assets/home-right.png";
+import { Cursor, useTypewriter } from "react-simple-typewriter";
+import BackgroundCircle from "../components/BackgroundCircle";
 import Intro from "./Intro";
 import TechStack from "./TechStack";
 import ToolStack from "./ToolStack";
