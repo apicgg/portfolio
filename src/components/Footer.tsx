@@ -24,7 +24,7 @@ const Footer = () => {
           </li>
           <li>
             <Link
-              href="https://www.linkedin.com/in/anurag-pramanik-345843125/"
+              href="https://www.linkedin.com/in/anurag-p-345843125/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Anurag Pramanik linkedin"
