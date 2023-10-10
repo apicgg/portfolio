@@ -10,6 +10,7 @@ Feel free to fork this repo and make changes accordingly.
 
 - [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://github.com/framer/motion)
 - [Vercel](https://vercel.com/)
 
 ## 🛠 Installation and Setup Instructions
