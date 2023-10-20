@@ -1,16 +1,18 @@
+"use client";
+
 import Image from "next/image";
 import avatar from "public/assets/home-right.png";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
-import BackgroundCircle from "../components/BackgroundCircle";
+import BackgroundCircle from "./BackgroundCircle";
 import Intro from "./Intro";
 import TechStack from "./TechStack";
 import ToolStack from "./ToolStack";
 
 const Hero = () => {
   const [text] = useTypewriter({
-    words: ["Hi, I'm Anurag.", "React", "Next.js", "MERN Stack"],
+    words: ["Hi, I'm Anurag.", "Frontend Lead", "React, Next.js, TypeScript"],
     loop: true,
-    delaySpeed: 1500,
+    delaySpeed: 1200,
   });
 
   return (
@@ -18,12 +20,12 @@ const Hero = () => {
       <div className="flex h-screen flex-col items-center justify-center space-y-4 overflow-hidden text-center">
         <BackgroundCircle />
         <div className="mx-auto h-32 w-32 rounded-full object-cover">
-          <Image src={avatar} alt="Anurag avatar" priority />
+          <Image src={avatar} alt="Anurag's avatar" priority />
         </div>
 
         <div>
           <h2 className="p-2 text-sm uppercase tracking-[15px] text-zinc-900 dark:text-gray-400">
-            Software Engineer
+            Software Consultant
           </h2>
           <h1 className="px-10 text-xl font-semibold md:text-2xl lg:text-3xl">
             <span className="mr-3">{text}</span>

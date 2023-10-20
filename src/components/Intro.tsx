@@ -4,7 +4,7 @@ const Intro = () => {
   return (
     <section className="mx-auto mb-8 flex max-w-5xl flex-col-reverse items-center justify-between p-4 md:gap-12 md:p-8 lg:flex-row">
       <div className="px-4 md:px-0">
-        <h1 className="py-2 pt-6 text-center text-2xl font-medium md:text-4xl md:font-semibold">
+        <h1 className="py-2 pt-6 text-center text-2xl font-medium md:text-4xl mb-2 md:font-semibold">
           LET ME{" "}
           <span className="text-[#1C3782] dark:text-[#74C0FC]">INTRODUCE</span>{" "}
           MYSELF
