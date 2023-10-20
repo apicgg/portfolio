@@ -1,17 +1,15 @@
 import {
-  DiGit,
-  DiJavascript1,
-  DiMongodb,
-  DiNodejs,
-  DiReact,
-} from "react-icons/di";
-import {
-  SiChakraui,
-  SiExpress,
+  SiAntdesign,
+  SiGit,
+  SiJavascript,
+  SiMongodb,
+  SiNextdotjs,
+  SiNodedotjs,
+  SiRadixui,
+  SiReact,
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
-import { TbBrandNextjs } from "react-icons/tb";
 
 const TechStack = () => {
   return (
@@ -25,23 +23,23 @@ const TechStack = () => {
             <DiCss3 className="w-14 h-14" color="gray" />
           </i> */}
           <i className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110">
-            <DiReact className="h-14 w-14" color="gray" />
+            <SiReact className="h-14 w-14" color="gray" />
           </i>
           <i className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110">
-            <TbBrandNextjs className="h-14 w-14" color="gray" />
+            <SiNextdotjs className="h-14 w-14" color="gray" />
           </i>
 
           <i className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110">
-            <DiJavascript1 className="h-14 w-14" color="gray" />
+            <SiJavascript className="h-14 w-14" color="gray" />
           </i>
           <i className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110">
             <SiTypescript className="h-14 w-14" color="gray" />
           </i>
           <i className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110 lg:hidden">
-            <DiNodejs className="h-14 w-14" color="gray" />
+            <SiNodedotjs className="h-14 w-14" color="gray" />
           </i>
           <i className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110 lg:hidden">
-            <SiExpress className="h-14 w-14" color="gray" />
+            <SiAntdesign className="h-14 w-14" color="gray" />
           </i>
         </div>
 
@@ -50,14 +48,14 @@ const TechStack = () => {
             <SiTailwindcss className="h-14 w-14" color="gray" />
           </i>
           <i className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110">
-            <SiChakraui className="h-14 w-14" color="gray" />
+            <SiRadixui className="h-14 w-14" color="gray" />
           </i>
 
           <i className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110">
-            <DiMongodb className="h-14 w-14" color="gray" />
+            <SiMongodb className="h-14 w-14" color="gray" />
           </i>
           <i className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110">
-            <DiGit className="h-14 w-14" color="gray" />
+            <SiGit className="h-14 w-14" color="gray" />
           </i>
         </div>
       </section>
