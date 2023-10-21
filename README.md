@@ -8,7 +8,7 @@ Feel free to fork this repo and make changes accordingly.
 
 ## 🎯 This project was built using -
 
-- [Next.js](https://nextjs.org/)
+- [Next.js 13](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Framer Motion](https://github.com/framer/motion)
 - [Vercel](https://vercel.com/)
