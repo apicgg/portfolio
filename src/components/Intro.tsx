@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Intro = () => {
   return (
-    <section className="mx-auto mb-8 flex max-w-5xl flex-col-reverse items-center justify-between p-4 md:gap-12 md:p-8 lg:flex-row">
+    <article className="mx-auto mb-8 flex max-w-5xl flex-col-reverse items-center justify-between p-4 md:gap-12 md:p-8 lg:flex-row">
       <div className="px-4 md:px-0">
         <h1 className="py-2 pt-6 text-center text-2xl font-medium md:text-4xl mb-2 md:font-semibold">
           LET ME{" "}
@@ -45,7 +45,7 @@ const Intro = () => {
           </i>
         </p>
       </div>
-    </section>
+    </article>
   );
 };
 

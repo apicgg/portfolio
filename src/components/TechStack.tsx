@@ -11,55 +11,58 @@ import {
   SiTypescript,
 } from "react-icons/si";
 
+import { styles } from "./TechStack-tw-styles";
+
 const TechStack = () => {
   return (
-    <>
-      <section className="flex flex-col items-center justify-center space-y-4">
-        <div className="my-6 grid grid-cols-2 gap-5 lg:flex lg:space-x-16">
-          {/* <i className="py-4 border-2 border-[#474747] rounded px-14 hover:scale-110 ease-in-out duration-300">
-            <SiHtml5 className="w-14 h-14" color="gray" />
-          </i> */}
-          {/* <i className="lg:hidden py-4 border-2 border-[#474747] rounded px-14 hover:scale-110 ease-in-out duration-300">
-            <DiCss3 className="w-14 h-14" color="gray" />
-          </i> */}
-          <i className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110">
-            <SiReact className="h-14 w-14" color="gray" />
-          </i>
-          <i className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110">
-            <SiNextdotjs className="h-14 w-14" color="gray" />
-          </i>
+    <section className="flex flex-col items-center justify-center space-y-4">
+      <div className="my-6 grid grid-cols-2 gap-5 lg:flex lg:space-x-16">
+        <figure className={styles.defaultStyles}>
+          <SiReact className={styles.iconStyles} color={styles.iconColor} />
+        </figure>
+        <figure className={styles.defaultStyles}>
+          <SiNextdotjs className={styles.iconStyles} color={styles.iconColor} />
+        </figure>
 
-          <i className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110">
-            <SiJavascript className="h-14 w-14" color="gray" />
-          </i>
-          <i className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110">
-            <SiTypescript className="h-14 w-14" color="gray" />
-          </i>
-          <i className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110 lg:hidden">
-            <SiNodedotjs className="h-14 w-14" color="gray" />
-          </i>
-          <i className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110 lg:hidden">
-            <SiAntdesign className="h-14 w-14" color="gray" />
-          </i>
-        </div>
+        <figure className={styles.defaultStyles}>
+          <SiJavascript
+            className={styles.iconStyles}
+            color={styles.iconColor}
+          />
+        </figure>
+        <figure className={styles.defaultStyles}>
+          <SiTypescript
+            className={styles.iconStyles}
+            color={styles.iconColor}
+          />
+        </figure>
+        <figure className={`${styles.defaultStyles} lg:hidden`}>
+          <SiNodedotjs className={styles.iconStyles} color={styles.iconColor} />
+        </figure>
+        <figure className={`${styles.defaultStyles} lg:hidden`}>
+          <SiAntdesign className={styles.iconStyles} color={styles.iconColor} />
+        </figure>
+      </div>
 
-        <div className="my-6 grid grid-cols-2 gap-5 lg:flex lg:space-x-16">
-          <i className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110">
-            <SiTailwindcss className="h-14 w-14" color="gray" />
-          </i>
-          <i className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110">
-            <SiRadixui className="h-14 w-14" color="gray" />
-          </i>
+      <div className="my-6 grid grid-cols-2 gap-5 lg:flex lg:space-x-16">
+        <figure className={styles.defaultStyles}>
+          <SiTailwindcss
+            className={styles.iconStyles}
+            color={styles.iconColor}
+          />
+        </figure>
+        <figure className={styles.defaultStyles}>
+          <SiRadixui className={styles.iconStyles} color={styles.iconColor} />
+        </figure>
 
-          <i className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110">
-            <SiMongodb className="h-14 w-14" color="gray" />
-          </i>
-          <i className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110">
-            <SiGit className="h-14 w-14" color="gray" />
-          </i>
-        </div>
-      </section>
-    </>
+        <figure className={styles.defaultStyles}>
+          <SiMongodb className={styles.iconStyles} color={styles.iconColor} />
+        </figure>
+        <figure className={styles.defaultStyles}>
+          <SiGit className={styles.iconStyles} color={styles.iconColor} />
+        </figure>
+      </div>
+    </section>
   );
 };
 
