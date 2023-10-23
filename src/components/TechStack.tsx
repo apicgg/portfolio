@@ -11,7 +11,7 @@ import {
   SiTypescript,
 } from "react-icons/si";
 
-import { styles } from "./TechStack-tw-styles";
+import { styles } from "./common-tw-styles";
 
 const TechStack = () => {
   return (
