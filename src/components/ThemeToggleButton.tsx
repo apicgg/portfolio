@@ -7,6 +7,7 @@ const themes = ["light", "dark"];
 
 export default function ThemeToggle() {
   const [isMounted, setIsMounted] = useState(false);
+
   const [theme, setTheme] = useState(() => {
     if (typeof window !== "undefined") {
       if (
@@ -21,6 +22,7 @@ export default function ThemeToggle() {
       return "light";
     }
   });
+
   const toggleTheme = () => {
     const t = theme === "light" ? "dark" : "light";
     localStorage.setItem("theme", t);
