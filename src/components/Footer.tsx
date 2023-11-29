@@ -6,7 +6,7 @@ const Footer = () => {
   let date = new Date();
   let currentYear = date.getFullYear();
   return (
-    <footer className="px-12 py-8 md:px-14 max-w-5xl mx-auto">
+    <footer className="px-2 py-8 max-w-5xl mx-auto">
       <div className="grid grid-rows-3 items-center justify-center gap-y-5 md:grid-cols-3 md:grid-rows-none md:justify-between">
         <h3 className="font-semibold">Developed by Anurag</h3>
         <h3 className="place-self-center font-semibold">
