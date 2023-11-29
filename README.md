@@ -3,7 +3,7 @@
   <a href="https://www.anuragp.dev/">anuragp.dev</a>
 </h2>
 
-My personal SEO improved portfolio <a href="https://www.anuragp.dev/">anuragp.dev</a> which features my resume and technical skills built with Next.js app router.<br/>
+My personal portfolio <a href="https://www.anuragp.dev/">anuragp.dev</a> which features my resume and technical skills built with Next.js app router.<br/>
 Feel free to fork this repo and make changes accordingly.
 
 ## 🎯 This project was built using -
