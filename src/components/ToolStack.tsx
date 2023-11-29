@@ -5,7 +5,7 @@ import {
   SiVisualstudiocode,
 } from "react-icons/si";
 
-import { styles } from "@/styles/common-tw-styles";
+import { styles } from "./common-tw-styles";
 
 const ToolStack = () => {
   return (
