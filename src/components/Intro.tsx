@@ -27,8 +27,8 @@ const Intro = () => {
             Check out my{" "}
             <Link
               className="hove:text-[#1C3782] transition-colors duration-500 ease-out dark:hover:text-[#F9C34D] "
-              href="https://digital-resume-panurag.vercel.app/"
-              aria-label="Anurag Pramanik resume website"
+              href="/assets/resume/Anurag_Resume.pdf"
+              aria-label="Anurag's Resume"
               target="_blank"
               rel="noopener noreferrer"
             >
