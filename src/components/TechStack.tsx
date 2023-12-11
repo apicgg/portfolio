@@ -1,66 +1,101 @@
 import {
-  SiAntdesign,
   SiGit,
-  SiJavascript,
   SiMongodb,
   SiNextdotjs,
-  SiNodedotjs,
+  SiPython,
   SiRadixui,
   SiReact,
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
 
+import Link from "next/link";
 import { styles } from "./common-tw-styles";
 
 const TechStack = () => {
   return (
     <section className="flex flex-col items-center justify-center space-y-4">
       <div className="my-6 grid grid-cols-2 gap-5 lg:flex lg:space-x-16">
-        <figure className={styles.defaultStyles}>
+        <Link
+          href="https://react.dev/"
+          rel="noopener noreferrer"
+          target="_blank"
+          className={styles.defaultStyles}
+        >
           <SiReact className={styles.iconStyles} color={styles.iconColor} />
-        </figure>
-        <figure className={styles.defaultStyles}>
+        </Link>
+        <Link
+          href="https://nextjs.org/"
+          rel="noopener noreferrer"
+          target="_blank"
+          className={styles.defaultStyles}
+        >
           <SiNextdotjs className={styles.iconStyles} color={styles.iconColor} />
-        </figure>
-
-        <figure className={styles.defaultStyles}>
+        </Link>
+        {/* <Link className={styles.defaultStyles}>
           <SiJavascript
             className={styles.iconStyles}
             color={styles.iconColor}
           />
-        </figure>
-        <figure className={styles.defaultStyles}>
+        </Link> */}
+        <Link
+          href="https://www.typescriptlang.org/"
+          rel="noopener noreferrer"
+          target="_blank"
+          className={styles.defaultStyles}
+        >
           <SiTypescript
             className={styles.iconStyles}
             color={styles.iconColor}
           />
-        </figure>
-        <figure className={`${styles.defaultStyles} lg:hidden`}>
-          <SiNodedotjs className={styles.iconStyles} color={styles.iconColor} />
-        </figure>
-        <figure className={`${styles.defaultStyles} lg:hidden`}>
-          <SiAntdesign className={styles.iconStyles} color={styles.iconColor} />
-        </figure>
+        </Link>
+        <Link
+          href="https://www.python.org/"
+          rel="noopener noreferrer"
+          target="_blank"
+          className={styles.defaultStyles}
+        >
+          <SiPython className={styles.iconStyles} color={styles.iconColor} />
+        </Link>
       </div>
 
       <div className="my-6 grid grid-cols-2 gap-5 lg:flex lg:space-x-16">
-        <figure className={styles.defaultStyles}>
+        <Link
+          href="https://tailwindcss.com/"
+          rel="noopener noreferrer"
+          target="_blank"
+          className={styles.defaultStyles}
+        >
           <SiTailwindcss
             className={styles.iconStyles}
             color={styles.iconColor}
           />
-        </figure>
-        <figure className={styles.defaultStyles}>
+        </Link>
+        <Link
+          href="https://www.radix-ui.com/"
+          rel="noopener noreferrer"
+          target="_blank"
+          className={styles.defaultStyles}
+        >
           <SiRadixui className={styles.iconStyles} color={styles.iconColor} />
-        </figure>
+        </Link>
 
-        <figure className={styles.defaultStyles}>
+        <Link
+          href="https://www.mongodb.com/"
+          rel="noopener noreferrer"
+          target="_blank"
+          className={styles.defaultStyles}
+        >
           <SiMongodb className={styles.iconStyles} color={styles.iconColor} />
-        </figure>
-        <figure className={styles.defaultStyles}>
+        </Link>
+        <Link
+          href="https://git-scm.com/"
+          rel="noopener noreferrer"
+          target="_blank"
+          className={styles.defaultStyles}
+        >
           <SiGit className={styles.iconStyles} color={styles.iconColor} />
-        </figure>
+        </Link>
       </div>
     </section>
   );

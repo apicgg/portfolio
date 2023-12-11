@@ -25,7 +25,7 @@ const Hero = () => {
 
         <div>
           <h2 className="p-2 text-sm uppercase tracking-[15px] text-zinc-900 dark:text-gray-400">
-            Software Consultant
+            Frontend Consultant
           </h2>
           <h1 className="px-10 text-xl font-semibold md:text-2xl lg:text-3xl">
             <span className="mr-3">{text}</span>
