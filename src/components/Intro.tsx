@@ -26,7 +26,7 @@ const Intro = () => {
           <span>
             Check out my{" "}
             <Link
-              className="hove:text-[#1C3782] transition-colors duration-500 ease-out dark:hover:text-[#F9C34D] "
+              className="hover:text-[#1C3782] transition-colors duration-500 ease-out dark:hover:text-[#F9C34D] "
               href="/assets/resume/Anurag_Resume.pdf"
               aria-label="Anurag's Resume"
               target="_blank"
@@ -38,10 +38,13 @@ const Intro = () => {
           </span>
           <br />
           <br />
-          My field of interest is to build full-stack web applications. And also
-          in areas related to modern web technologies like &nbsp;
+          My field of interest is to build full-stack web and mobile
+          applications. And also in areas related to modern technologies like
+          &nbsp;
           <i>
-            <b className="text-[#1C3782] dark:text-[#74C0FC]">Next.js. </b>
+            <b className="text-[#1C3782] dark:text-[#74C0FC]">
+              React Native & Next.js.{" "}
+            </b>
           </i>
         </p>
       </div>

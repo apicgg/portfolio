@@ -10,9 +10,14 @@ import ToolStack from "./ToolStack";
 
 const Hero = () => {
   const [text] = useTypewriter({
-    words: ["Hi, I'm Anurag.", "Frontend Lead", "React, Next.js, TypeScript"],
+    words: [
+      "Hi, I'm Anurag.",
+      "Frontend Lead",
+      "React, React Native",
+      "Next.js, TypeScript",
+    ],
     loop: true,
-    delaySpeed: 1200,
+    delaySpeed: 1000,
   });
 
   return (

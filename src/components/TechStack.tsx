@@ -2,7 +2,6 @@ import {
   SiGit,
   SiMongodb,
   SiNextdotjs,
-  SiPython,
   SiRadixui,
   SiReact,
   SiTailwindcss,
@@ -10,6 +9,7 @@ import {
 } from "react-icons/si";
 
 import Link from "next/link";
+import { FaMobileAlt } from "react-icons/fa";
 import { styles } from "./common-tw-styles";
 
 const TechStack = () => {
@@ -50,12 +50,12 @@ const TechStack = () => {
           />
         </Link>
         <Link
-          href="https://www.python.org/"
+          href="https://reactnative.dev/"
           rel="noopener noreferrer"
           target="_blank"
           className={styles.defaultStyles}
         >
-          <SiPython className={styles.iconStyles} color={styles.iconColor} />
+          <FaMobileAlt className={styles.iconStyles} color={styles.iconColor} />
         </Link>
       </div>
 
