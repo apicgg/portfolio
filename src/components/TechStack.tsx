@@ -2,11 +2,13 @@ import {
   SiGit,
   SiMongodb,
   SiNextdotjs,
-  SiRadixui,
   SiReact,
+  SiSwift,
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
+
+import { GrAppleAppStore } from "react-icons/gr";
 
 import Link from "next/link";
 import { FaMobileAlt } from "react-icons/fa";
@@ -24,6 +26,7 @@ const TechStack = () => {
         >
           <SiReact className={styles.iconStyles} color={styles.iconColor} />
         </Link>
+
         <Link
           href="https://nextjs.org/"
           rel="noopener noreferrer"
@@ -38,6 +41,7 @@ const TechStack = () => {
             color={styles.iconColor}
           />
         </Link> */}
+
         <Link
           href="https://www.typescriptlang.org/"
           rel="noopener noreferrer"
@@ -49,17 +53,7 @@ const TechStack = () => {
             color={styles.iconColor}
           />
         </Link>
-        <Link
-          href="https://reactnative.dev/"
-          rel="noopener noreferrer"
-          target="_blank"
-          className={styles.defaultStyles}
-        >
-          <FaMobileAlt className={styles.iconStyles} color={styles.iconColor} />
-        </Link>
-      </div>
 
-      <div className="my-6 grid grid-cols-2 gap-5 lg:flex lg:space-x-16">
         <Link
           href="https://tailwindcss.com/"
           rel="noopener noreferrer"
@@ -71,14 +65,17 @@ const TechStack = () => {
             color={styles.iconColor}
           />
         </Link>
-        <Link
+      </div>
+
+      <div className="my-6 grid grid-cols-2 gap-5 lg:flex lg:space-x-16">
+        {/* <Link
           href="https://www.radix-ui.com/"
           rel="noopener noreferrer"
           target="_blank"
           className={styles.defaultStyles}
         >
           <SiRadixui className={styles.iconStyles} color={styles.iconColor} />
-        </Link>
+        </Link> */}
 
         <Link
           href="https://www.mongodb.com/"
@@ -88,13 +85,44 @@ const TechStack = () => {
         >
           <SiMongodb className={styles.iconStyles} color={styles.iconColor} />
         </Link>
-        <Link
+
+        {/* <Link
           href="https://git-scm.com/"
           rel="noopener noreferrer"
           target="_blank"
           className={styles.defaultStyles}
         >
           <SiGit className={styles.iconStyles} color={styles.iconColor} />
+        </Link> */}
+
+        <Link
+          href="https://reactnative.dev/"
+          rel="noopener noreferrer"
+          target="_blank"
+          className={styles.defaultStyles}
+        >
+          <FaMobileAlt className={styles.iconStyles} color={styles.iconColor} />
+        </Link>
+
+        <Link
+          href="https://developer.apple.com/"
+          rel="noopener noreferrer"
+          target="_blank"
+          className={styles.defaultStyles}
+        >
+          <GrAppleAppStore
+            className={styles.iconStyles}
+            color={styles.iconColor}
+          />
+        </Link>
+
+        <Link
+          href="https://developer.apple.com/swift/"
+          rel="noopener noreferrer"
+          target="_blank"
+          className={styles.defaultStyles}
+        >
+          <SiSwift className={styles.iconStyles} color={styles.iconColor} />
         </Link>
       </div>
     </section>
