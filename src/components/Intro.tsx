@@ -39,11 +39,11 @@ const Intro = () => {
           <br />
           <br />
           My field of interest is to build full-stack web and mobile
-          applications. And also in areas related to mobile technologies like
+          applications. And also in areas related to modern technologies like
           &nbsp;
           <i>
             <b className="text-[#1C3782] dark:text-[#74C0FC]">
-              React Native & iOS development
+              React Native & Next.js.{" "}
             </b>
           </i>
         </p>
