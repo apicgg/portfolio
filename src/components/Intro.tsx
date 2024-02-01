@@ -4,7 +4,7 @@ const Intro = () => {
   return (
     <article className="mx-auto mb-8 flex max-w-5xl flex-col-reverse items-center justify-between p-4 md:gap-12 md:p-8 lg:flex-row">
       <div className="px-4 md:px-0">
-        <h1 className="py-2 pt-6 text-center text-2xl font-medium md:text-4xl mb-2 md:font-semibold">
+        <h1 className="mb-2 py-2 pt-6 text-center text-2xl font-medium md:text-4xl md:font-semibold">
           LET ME&nbsp;
           <span className="text-[#1C3782] dark:text-[#74C0FC]">INTRODUCE</span>
           &nbsp;MYSELF
@@ -20,7 +20,7 @@ const Intro = () => {
           <span>
             Check out my&nbsp;
             <Link
-              className="hover:text-[#1C3782] transition-colors duration-500 ease-out dark:hover:text-[#F9C34D] "
+              className="transition-colors duration-500 ease-out hover:text-[#1C3782] dark:hover:text-[#F9C34D] "
               href="/assets/resume/Anurag_Resume.pdf"
               aria-label="Anurag's Resume"
               target="_blank"

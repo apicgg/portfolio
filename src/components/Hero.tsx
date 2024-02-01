@@ -21,7 +21,7 @@ const Hero = () => {
   });
 
   return (
-    <section className="max-w-5xl mx-auto">
+    <section className="mx-auto max-w-5xl">
       <div className="flex h-screen flex-col items-center justify-center space-y-4 overflow-hidden text-center">
         <BackgroundCircle />
         <figure className="mx-auto h-32 w-32 rounded-full object-cover">
