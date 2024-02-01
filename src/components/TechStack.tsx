@@ -10,7 +10,6 @@ import {
 
 import Link from "next/link";
 import { FaMobileAlt } from "react-icons/fa";
-import { styles } from "../styles/common-tw-styles";
 
 const TechStack = () => {
   return (
@@ -20,19 +19,19 @@ const TechStack = () => {
           href="https://react.dev/"
           rel="noopener noreferrer"
           target="_blank"
-          className={styles.defaultStyles}
+          className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110"
         >
-          <SiReact className={styles.iconStyles} color={styles.iconColor} />
+          <SiReact className="gray h-14 w-14" />
         </Link>
         <Link
           href="https://nextjs.org/"
           rel="noopener noreferrer"
           target="_blank"
-          className={styles.defaultStyles}
+          className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110"
         >
-          <SiNextdotjs className={styles.iconStyles} color={styles.iconColor} />
+          <SiNextdotjs className="gray h-14 w-14" />
         </Link>
-        {/* <Link className={styles.defaultStyles}>
+        {/* <Link className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110">
           <SiJavascript
             className={styles.iconStyles}
             color={styles.iconColor}
@@ -42,20 +41,17 @@ const TechStack = () => {
           href="https://www.typescriptlang.org/"
           rel="noopener noreferrer"
           target="_blank"
-          className={styles.defaultStyles}
+          className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110"
         >
-          <SiTypescript
-            className={styles.iconStyles}
-            color={styles.iconColor}
-          />
+          <SiTypescript className="gray h-14 w-14" />
         </Link>
         <Link
           href="https://reactnative.dev/"
           rel="noopener noreferrer"
           target="_blank"
-          className={styles.defaultStyles}
+          className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110"
         >
-          <FaMobileAlt className={styles.iconStyles} color={styles.iconColor} />
+          <FaMobileAlt className="gray h-14 w-14" />
         </Link>
       </div>
 
@@ -64,37 +60,34 @@ const TechStack = () => {
           href="https://tailwindcss.com/"
           rel="noopener noreferrer"
           target="_blank"
-          className={styles.defaultStyles}
+          className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110"
         >
-          <SiTailwindcss
-            className={styles.iconStyles}
-            color={styles.iconColor}
-          />
+          <SiTailwindcss className="gray h-14 w-14" />
         </Link>
         <Link
           href="https://www.radix-ui.com/"
           rel="noopener noreferrer"
           target="_blank"
-          className={styles.defaultStyles}
+          className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110"
         >
-          <SiRadixui className={styles.iconStyles} color={styles.iconColor} />
+          <SiRadixui className="gray h-14 w-14" />
         </Link>
 
         <Link
           href="https://www.mongodb.com/"
           rel="noopener noreferrer"
           target="_blank"
-          className={styles.defaultStyles}
+          className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110"
         >
-          <SiMongodb className={styles.iconStyles} color={styles.iconColor} />
+          <SiMongodb className="gray h-14 w-14" />
         </Link>
         <Link
           href="https://git-scm.com/"
           rel="noopener noreferrer"
           target="_blank"
-          className={styles.defaultStyles}
+          className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110"
         >
-          <SiGit className={styles.iconStyles} color={styles.iconColor} />
+          <SiGit className="gray h-14 w-14" />
         </Link>
       </div>
     </section>

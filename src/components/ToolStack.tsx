@@ -6,7 +6,6 @@ import {
 } from "react-icons/si";
 
 import Link from "next/link";
-import { styles } from "../styles/common-tw-styles";
 
 const ToolStack = () => {
   return (
@@ -16,39 +15,33 @@ const ToolStack = () => {
           href="https://www.postman.com/"
           rel="noopener noreferrer"
           target="_blank"
-          className={styles.defaultStyles}
+          className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110"
         >
-          <SiPostman className={styles.iconStyles} color={styles.iconColor} />
+          <SiPostman className="gray h-14 w-14" />
         </Link>
         <Link
           href="https://cloud.google.com/"
           rel="noopener noreferrer"
           target="_blank"
-          className={styles.defaultStyles}
+          className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110"
         >
-          <SiGooglecloud
-            className={styles.iconStyles}
-            color={styles.iconColor}
-          />
+          <SiGooglecloud className="gray h-14 w-14" />
         </Link>
         <Link
           href="https://code.visualstudio.com/"
           rel="noopener noreferrer"
           target="_blank"
-          className={styles.defaultStyles}
+          className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110"
         >
-          <SiVisualstudiocode
-            className={styles.iconStyles}
-            color={styles.iconColor}
-          />
+          <SiVisualstudiocode className="gray h-14 w-14" />
         </Link>
         <Link
           href="https://github.com/"
           rel="noopener noreferrer"
           target="_blank"
-          className={styles.defaultStyles}
+          className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110"
         >
-          <SiGithub className={styles.iconStyles} color={styles.iconColor} />
+          <SiGithub className="gray h-14 w-14" />
         </Link>
       </div>
     </section>
