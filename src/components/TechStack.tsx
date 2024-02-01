@@ -10,7 +10,7 @@ import {
 
 import Link from "next/link";
 import { FaMobileAlt } from "react-icons/fa";
-import { styles } from "./common-tw-styles";
+import { styles } from "../styles/common-tw-styles";
 
 const TechStack = () => {
   return (

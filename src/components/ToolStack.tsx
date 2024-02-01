@@ -6,7 +6,7 @@ import {
 } from "react-icons/si";
 
 import Link from "next/link";
-import { styles } from "./common-tw-styles";
+import { styles } from "../styles/common-tw-styles";
 
 const ToolStack = () => {
   return (
