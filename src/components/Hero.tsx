@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import avatar from "public/assets/home-right.png";
+import avatar from "public/assets/My_Avatar_Dark_Mode.webp";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircle from "./BackgroundCircle";
 import Intro from "./Intro";

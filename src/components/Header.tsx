@@ -49,26 +49,6 @@ const Header = () => {
           className="flex items-center gap-2 lg:gap-10"
         >
           <ThemeToggle />
-          <li className="flex items-center justify-between text-sm font-medium transition-all duration-300 md:text-base lg:rounded-lg lg:px-4 lg:py-2 lg:text-xl lg:hover:scale-110">
-            <Link
-              href="/assets/resume/Anurag_Pramanik_Resume.pdf"
-              className="coolButton hidden lg:block"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Anurag's Resume"
-            >
-              Resume
-            </Link>
-            <Link
-              href="/assets/resume/Anurag_Pramanik_Resume.pdf"
-              className="coolButton block lg:hidden"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Anurag's Resume"
-            >
-              Resume
-            </Link>
-          </li>
         </motion.ul>
       </div>
     </header>
