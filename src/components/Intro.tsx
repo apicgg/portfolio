@@ -10,36 +10,27 @@ const Intro = () => {
           &nbsp;MYSELF
         </h1>
         <p className="text-base md:text-lg ">
-          Hey, I&apos;m Anurag Pramanik. I have over 4 years of experience as a
-          Software Engineer. I am fluent in&nbsp;
+          Hey, I&apos;m Anurag. I have over 5 years of experience as a Software
+          Engineer. I am fluent in&nbsp;
           <strong className="text-[#1C3782] dark:text-[#74C0FC]">
-            React, Next.js & TypeScript.
+            React, Next.js, React Native & TypeScript.
           </strong>
           <br />
           <br />
           <span>
             Check out my&nbsp;
             <Link
-              className="transition-colors duration-500 ease-out hover:text-[#1C3782] dark:hover:text-[#F9C34D] "
-              href="/assets/resume/Anurag_Resume.pdf"
-              aria-label="Anurag's Resume"
+              className="cursor-pointer rounded-full border border-[#242424] p-2 text-sm tracking-widest text-gray-400 transition-all dark:hover:border-[#F9C34D]/90 dark:hover:text-[#F9C34D]/90"
+              href="https://github.com/apicgg"
+              aria-label="Anurag's GitHub"
               target="_blank"
               rel="noopener noreferrer"
+              prefetch={true}
             >
-              Resume
+              GitHub
             </Link>
-            &nbsp;for complete detail of my skills.
+            &nbsp;to know more about my work.
           </span>
-          <br />
-          <br />
-          My field of interest is to build full-stack web and mobile
-          applications. And also in areas related to modern technologies like
-          &nbsp;
-          <em>
-            <strong className="text-[#1C3782] dark:text-[#74C0FC]">
-              React Native & Next.js.
-            </strong>
-          </em>
         </p>
       </div>
     </article>

@@ -15,6 +15,7 @@ const Hero = () => {
       "Frontend Lead",
       "React, React Native",
       "Next.js, TypeScript",
+      "Tailwind, AWS, GCP",
     ],
     loop: true,
     delaySpeed: 1000,
