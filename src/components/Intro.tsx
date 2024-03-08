@@ -20,14 +20,14 @@ const Intro = () => {
           <span>
             Check out my&nbsp;
             <Link
-              className="cursor-pointer rounded-full border border-[#242424] p-2 text-sm tracking-widest text-gray-400 transition-all dark:hover:border-[#F9C34D]/90 dark:hover:text-[#F9C34D]/90"
+              className="group inline-block text-black transition duration-300 dark:text-white "
               href="https://github.com/apicgg"
               aria-label="Anurag's GitHub"
               target="_blank"
               rel="noopener noreferrer"
-              prefetch={true}
             >
               GitHub
+              <span className="mx-auto block h-0.5 max-w-0 select-none rounded-full bg-[#F9C34D]/90 transition-all duration-300 group-hover:max-w-full"></span>
             </Link>
             &nbsp;to know more about my work.
           </span>
