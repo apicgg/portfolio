@@ -2,6 +2,7 @@ import {
   SiGit,
   SiMongodb,
   SiNextdotjs,
+  SiNodedotjs,
   SiRadixui,
   SiReact,
   SiTailwindcss,
@@ -9,7 +10,6 @@ import {
 } from "react-icons/si";
 
 import Link from "next/link";
-import { FaMobileAlt } from "react-icons/fa";
 
 const TechStack = () => {
   return (
@@ -45,13 +45,21 @@ const TechStack = () => {
         >
           <SiTypescript className="gray h-14 w-14" />
         </Link>
-        <Link
+        {/* <Link
           href="https://reactnative.dev/"
           rel="noopener noreferrer"
           target="_blank"
           className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110"
         >
           <FaMobileAlt className="gray h-14 w-14" />
+        </Link> */}
+        <Link
+          href="https://nodejs.org/en"
+          rel="noopener noreferrer"
+          target="_blank"
+          className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110"
+        >
+          <SiNodedotjs className="gray h-14 w-14" />
         </Link>
       </div>
 

@@ -15,10 +15,10 @@ const Footer = () => {
         <ul className="flex items-center justify-center gap-10 font-semibold">
           <li>
             <Link
-              href="https://github.com/apicgg/portfolio"
+              href="https://github.com/apicgg"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Anurag Pramanik github repository"
+              aria-label="Anurag's GitHub"
               prefetch={true}
             >
               <FaGithub className="h-5 w-5" />
@@ -29,7 +29,7 @@ const Footer = () => {
               href="https://www.linkedin.com/in/anurag-p-345843125/"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Anurag Pramanik linkedin"
+              aria-label="Anurag's LinkedinIn"
               prefetch={true}
             >
               <FaLinkedinIn className="h-5 w-5" />
@@ -37,10 +37,10 @@ const Footer = () => {
           </li>
           <li>
             <Link
-              href="https://twitter.com/titas_p"
+              href="https://twitter.com/anuragp_dev"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Anurag Pramanik twitter"
+              aria-label="Anurag's Twitter"
               prefetch={true}
             >
               <FaXTwitter className="h-5 w-5" />
