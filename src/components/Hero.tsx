@@ -12,7 +12,7 @@ const Hero = () => {
   const [text] = useTypewriter({
     words: [
       "Hi, I'm Anurag.",
-      "Frontend Lead",
+      "GenAI, Frontend Lead",
       "React, React Native",
       "Next.js, TypeScript",
       "Tailwind, AWS, GCP",
