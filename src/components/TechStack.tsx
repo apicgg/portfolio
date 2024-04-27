@@ -3,13 +3,13 @@ import {
   SiMongodb,
   SiNextdotjs,
   SiNodedotjs,
-  SiRadixui,
   SiReact,
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
 
 import Link from "next/link";
+import { FaMobileAlt } from "react-icons/fa";
 
 const TechStack = () => {
   return (
@@ -31,12 +31,14 @@ const TechStack = () => {
         >
           <SiNextdotjs className="gray h-14 w-14" />
         </Link>
-        {/* <Link className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110">
-          <SiJavascript
-            className={styles.iconStyles}
-            color={styles.iconColor}
-          />
-        </Link> */}
+        <Link
+          href="https://reactnative.dev/"
+          rel="noopener noreferrer"
+          target="_blank"
+          className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110"
+        >
+          <FaMobileAlt className="gray h-14 w-14" />
+        </Link>
         <Link
           href="https://www.typescriptlang.org/"
           rel="noopener noreferrer"
@@ -45,14 +47,9 @@ const TechStack = () => {
         >
           <SiTypescript className="gray h-14 w-14" />
         </Link>
-        {/* <Link
-          href="https://reactnative.dev/"
-          rel="noopener noreferrer"
-          target="_blank"
-          className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110"
-        >
-          <FaMobileAlt className="gray h-14 w-14" />
-        </Link> */}
+      </div>
+
+      <div className="my-6 grid grid-cols-2 gap-5 lg:flex lg:space-x-16">
         <Link
           href="https://nodejs.org/en"
           rel="noopener noreferrer"
@@ -61,9 +58,6 @@ const TechStack = () => {
         >
           <SiNodedotjs className="gray h-14 w-14" />
         </Link>
-      </div>
-
-      <div className="my-6 grid grid-cols-2 gap-5 lg:flex lg:space-x-16">
         <Link
           href="https://tailwindcss.com/"
           rel="noopener noreferrer"
@@ -72,15 +66,6 @@ const TechStack = () => {
         >
           <SiTailwindcss className="gray h-14 w-14" />
         </Link>
-        <Link
-          href="https://www.radix-ui.com/"
-          rel="noopener noreferrer"
-          target="_blank"
-          className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110"
-        >
-          <SiRadixui className="gray h-14 w-14" />
-        </Link>
-
         <Link
           href="https://www.mongodb.com/"
           rel="noopener noreferrer"
