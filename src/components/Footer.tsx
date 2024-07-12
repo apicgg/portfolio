@@ -6,12 +6,24 @@ const Footer = () => {
   let date = new Date();
   let currentYear = date.getFullYear();
   return (
-    <footer className="mx-auto max-w-5xl px-12 py-8 md:px-14">
+    <footer className="mx-auto max-w-5xl py-8">
       <div className="grid grid-rows-3 items-center justify-center gap-y-5 md:grid-cols-3 md:grid-rows-none md:justify-between">
-        <h3 className="font-semibold">Developed by Anurag</h3>
-        <h3 className="place-self-center font-semibold">
+        <p className="font-semibold">
+          Built by Anurag. Source available on{" "}
+          <Link
+            className="font-medium underline underline-offset-4"
+            href="https://github.com/apicgg/portfolio"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Repo link for portfolio"
+          >
+            GitHub
+          </Link>
+          .
+        </p>
+        <p className="place-self-center font-semibold">
           Copyright © {currentYear} AP
-        </h3>
+        </p>
         <ul className="flex items-center justify-center gap-10 font-semibold">
           <li>
             <Link
