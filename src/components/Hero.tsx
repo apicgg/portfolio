@@ -12,9 +12,9 @@ const Hero = () => {
   const [text] = useTypewriter({
     words: [
       "Hi, I'm Anurag.",
-      "GenAI, Frontend Lead",
-      "React, React Native",
-      "Next.js, TypeScript",
+      "GenAI, Frontend",
+      "React, Next.js",
+      "React Native, TypeScript",
       "Tailwind, AWS, GCP",
     ],
     loop: true,
@@ -31,7 +31,7 @@ const Hero = () => {
 
         <div>
           <h2 className="p-2 text-sm uppercase tracking-[15px] text-zinc-900 dark:text-gray-400">
-            Frontend Consultant
+            Frontend Developer
           </h2>
           <h1 className="px-10 text-xl font-semibold md:text-2xl lg:text-3xl">
             <span className="mr-3">{text}</span>
