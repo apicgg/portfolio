@@ -14,6 +14,8 @@ Feel free to fork this repo and make changes accordingly.
 - [Husky](https://typicode.github.io/husky/)
 - [Vercel](https://vercel.com/)
 
+**Note:** This project uses [Vercel Analytics](https://vercel.com/docs/analytics) for monitoring site performance and user interaction.
+
 ## 🛠 Installation and Setup Instructions
 
 1. Installation: `npm install`
