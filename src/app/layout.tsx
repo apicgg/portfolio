@@ -3,12 +3,32 @@ import Header from "@/components/Header";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
-import { Open_Sans } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const open_sans = Open_Sans({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
+const mononokiLocal = localFont({
+  src: [
+    {
+      path: "./fonts/mononoki-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "./fonts/mononoki-Italic.ttf",
+      weight: "400",
+      style: "italic",
+    },
+    {
+      path: "./fonts/mononoki-Bold.ttf",
+      weight: "700",
+      style: "normal",
+    },
+    {
+      path: "./fonts/mononoki-BoldItalic.ttf",
+      weight: "700",
+      style: "italic",
+    },
+  ],
 });
 
 export const metadata: Metadata = {
@@ -36,7 +56,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${open_sans.className} break-words bg-orange-50 leading-6 text-zinc-900 transition-colors duration-500 dark:bg-zinc-900 dark:text-zinc-300`}
+        className={`${mononokiLocal.className} break-words bg-orange-50 leading-6 text-zinc-900 transition-colors duration-500 dark:bg-zinc-900 dark:text-zinc-300`}
       >
         <SpeedInsights />
         <Header />
