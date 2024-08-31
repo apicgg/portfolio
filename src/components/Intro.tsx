@@ -29,7 +29,8 @@ const Intro = () => {
               GitHub
               <span className="mx-auto block h-0.5 max-w-0 select-none rounded-full bg-[#F9C34D]/90 transition-all duration-300 group-hover:max-w-full"></span>
             </Link>
-            &nbsp;to know more about my work.
+            &nbsp;to know more about my work. And yes, I&apos;m a proud light
+            mode warrior when the sun&apos;s up!
           </span>
         </p>
       </div>
