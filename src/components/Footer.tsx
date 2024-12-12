@@ -8,19 +8,7 @@ const Footer = () => {
   return (
     <footer className="mx-auto max-w-5xl py-8">
       <div className="grid grid-rows-3 items-center justify-center gap-y-5 md:grid-cols-3 md:grid-rows-none md:justify-between">
-        <p className="font-semibold">
-          Built by Anurag. Source available on{" "}
-          <Link
-            className="font-medium underline underline-offset-4"
-            href="https://github.com/apicgg/portfolio"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Repo link for portfolio"
-          >
-            GitHub
-          </Link>
-          .
-        </p>
+        <p className="font-semibold">Built by Anurag.</p>
         <p className="place-self-center font-semibold">
           Copyright © {currentYear} AP
         </p>
