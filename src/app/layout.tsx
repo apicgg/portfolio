@@ -5,6 +5,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import { NextThemesProviders } from "./providers";
 
 const mononokiLocal = localFont({
   src: [
@@ -54,15 +55,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${mononokiLocal.className} break-words bg-orange-50 leading-6 text-zinc-900 transition-colors duration-500 dark:bg-zinc-900 dark:text-zinc-300`}
       >
-        <SpeedInsights />
-        <Header />
-        {children}
-        <Analytics />
-        <Footer />
+        <NextThemesProviders>
+          <SpeedInsights />
+          <Header />
+          {children}
+          <Analytics />
+          <Footer />
+        </NextThemesProviders>
       </body>
     </html>
   );
