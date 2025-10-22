@@ -2,11 +2,11 @@ import Link from "next/link";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
-const Footer = () => {
-  let date = new Date();
-  let currentYear = date.getFullYear();
+export default function Footer() {
+  const date = new Date();
+  const currentYear = date.getFullYear();
   return (
-    <footer className="mx-auto max-w-5xl py-8">
+    <footer className="mx-auto max-w-5xl p-8">
       <div className="grid grid-rows-3 items-center justify-center gap-y-5 md:grid-cols-3 md:grid-rows-none md:justify-between">
         <p className="font-semibold">Built by Anurag.</p>
         <p className="place-self-center font-semibold">
@@ -50,6 +50,4 @@ const Footer = () => {
       </div>
     </footer>
   );
-};
-
-export default Footer;
+}

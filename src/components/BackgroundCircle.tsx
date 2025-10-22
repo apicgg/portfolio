@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const BackgroundCircle = () => {
+export default function BackgroundCircle() {
   return (
     <motion.div
       initial={{
@@ -22,6 +22,4 @@ const BackgroundCircle = () => {
       <div className="absolute mt-52 h-[650px] w-[650px] animate-pulse rounded-full border border-slate-400 opacity-20 dark:border-[#F9C34D]" />
     </motion.div>
   );
-};
-
-export default BackgroundCircle;
+}

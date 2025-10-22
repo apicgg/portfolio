@@ -1,17 +1,16 @@
+import Link from "next/link";
+import { FaMobileAlt } from "react-icons/fa";
 import {
   SiGit,
-  SiMongodb,
   SiNextdotjs,
   SiNodedotjs,
+  SiPostgresql,
   SiReact,
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
 
-import Link from "next/link";
-import { FaMobileAlt } from "react-icons/fa";
-
-const TechStack = () => {
+export default function TechStack() {
   return (
     <section className="flex flex-col items-center justify-center space-y-4">
       <div className="my-6 grid grid-cols-2 gap-5 lg:flex lg:space-x-16">
@@ -72,7 +71,7 @@ const TechStack = () => {
           target="_blank"
           className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110"
         >
-          <SiMongodb className="gray h-14 w-14" />
+          <SiPostgresql className="gray h-14 w-14" />
         </Link>
         <Link
           href="https://git-scm.com/"
@@ -85,6 +84,4 @@ const TechStack = () => {
       </div>
     </section>
   );
-};
-
-export default TechStack;
+}
