@@ -24,12 +24,12 @@ export default function ToolStack() {
           href="https://cloud.google.com/"
           rel="noopener noreferrer"
           target="_blank"
-          className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110"
+          className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110 lg:hidden"
         >
           <SiGooglecloud className="gray h-14 w-14" />
         </Link>
         <Link
-          href="https://cloud.google.com/"
+          href="https://aws.amazon.com/"
           rel="noopener noreferrer"
           target="_blank"
           className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110"
@@ -45,10 +45,10 @@ export default function ToolStack() {
           <SiNeovim className="gray h-14 w-14" />
         </Link>
         <Link
-          href="https://neovim.io/"
+          href="https://code.visualstudio.com/"
           rel="noopener noreferrer"
           target="_blank"
-          className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110"
+          className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110 lg:hidden"
         >
           <SiVisualstudiocode className="gray h-14 w-14" />
         </Link>
