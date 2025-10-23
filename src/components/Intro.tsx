@@ -15,7 +15,7 @@ export default function Intro() {
         </h1>
         <p className="text-base md:text-lg ">
           Hey, I&apos;m Anurag. I have over {experience} years of experience as
-          a Software Engineer and an Frontend Architect. I am fluent in&nbsp;
+          a Software Engineer and a Frontend Architect. I am fluent in&nbsp;
           <strong className="text-[#1C3782] dark:text-[#74C0FC]">
             React, Next.js, React Native, iOS, TypeScript, Node.js, and Python.
           </strong>

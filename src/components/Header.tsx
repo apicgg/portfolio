@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
+
 import ThemeToggle from "./ThemeToggleButton";
 
 export default function Header() {
@@ -32,7 +33,7 @@ export default function Header() {
           </Link>
         </motion.div>
 
-        <motion.ul
+        <motion.div
           initial={{
             x: 500,
             opacity: 0,
@@ -49,7 +50,7 @@ export default function Header() {
           className="flex items-center gap-2 lg:gap-10"
         >
           <ThemeToggle />
-        </motion.ul>
+        </motion.div>
       </div>
     </header>
   );

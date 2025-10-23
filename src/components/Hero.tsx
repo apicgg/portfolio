@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+
 import avatar from "../../public/assets/latest-avatar.png";
 import BackgroundCircle from "./BackgroundCircle";
 import Intro from "./Intro";
@@ -14,7 +15,13 @@ export default function Hero() {
       <div className="flex h-screen flex-col items-center justify-center space-y-4 overflow-hidden text-center">
         <BackgroundCircle />
         <figure className="mx-auto h-32 w-32 rounded-full object-cover">
-          <Image src={avatar} alt="Anurag's avatar" priority />
+          <Image
+            src={avatar}
+            width={128}
+            height={128}
+            alt="Anurag's avatar"
+            priority
+          />
         </figure>
         <TypewriterHeadline />
       </div>
