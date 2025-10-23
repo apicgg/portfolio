@@ -5,11 +5,6 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-
-import { NextThemesProviders } from "./themeProvider";
-
 const mononokiLocal = localFont({
   src: [
     {
