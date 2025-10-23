@@ -1,45 +1,31 @@
 "use client";
 
 import Image from "next/image";
-import { Cursor, useTypewriter } from "react-simple-typewriter";
-import avatar from "../../public/assets/My_Avatar_Dark_Mode.webp";
+
+import avatar from "../../public/assets/latest-avatar.png";
 import BackgroundCircle from "./BackgroundCircle";
 import Intro from "./Intro";
 import TechStack from "./TechStack";
 import ToolStack from "./ToolStack";
+import TypewriterHeadline from "./TypewriterHeadline";
 
-const Hero = () => {
-  const [text] = useTypewriter({
-    words: [
-      "Hi, I'm Anurag.",
-      "GenAI, Frontend",
-      "React, Next.js",
-      "React Native, TypeScript",
-      "Tailwind, AWS, GCP",
-    ],
-    loop: true,
-    delaySpeed: 1000,
-  });
-
+export default function Hero() {
   return (
     <section className="mx-auto max-w-5xl">
       <div className="flex h-screen flex-col items-center justify-center space-y-4 overflow-hidden text-center">
         <BackgroundCircle />
         <figure className="mx-auto h-32 w-32 rounded-full object-cover">
-          <Image src={avatar} alt="Anurag's avatar" priority />
+          <Image
+            src={avatar}
+            width={128}
+            height={128}
+            alt="Anurag's avatar"
+            priority
+          />
         </figure>
-
-        <div>
-          <h2 className="p-2 text-sm uppercase tracking-[15px] text-zinc-900 dark:text-gray-400">
-            Frontend Developer
-          </h2>
-          <h1 className="px-10 text-xl font-semibold md:text-2xl lg:text-3xl">
-            <span className="mr-3">{text}</span>
-            <Cursor cursorColor="#339af0" />
-          </h1>
-        </div>
+        <TypewriterHeadline />
       </div>
-      <Intro />
+      <Intro /> {/* stays stable now */}
       <h2 className="mt-10 pt-8 text-center text-2xl font-semibold md:text-3xl">
         <span className="text-[#1C3782] dark:text-[#74C0FC]">
           Language, Library and Frameworks
@@ -53,6 +39,4 @@ const Hero = () => {
       <ToolStack />
     </section>
   );
-};
-
-export default Hero;
+}

@@ -1,11 +1,9 @@
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
+import "./globals.css";
+
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import "./globals.css";
-import { NextThemesProviders } from "./providers";
 
 const mononokiLocal = localFont({
   src: [
@@ -59,13 +57,9 @@ export default function RootLayout({
       <body
         className={`${mononokiLocal.className} break-words bg-orange-50 leading-6 text-zinc-900 transition-colors duration-500 dark:bg-zinc-900 dark:text-zinc-300`}
       >
-        <NextThemesProviders>
-          <SpeedInsights />
-          <Header />
-          {children}
-          <Analytics />
-          <Footer />
-        </NextThemesProviders>
+        {children}
+        <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );

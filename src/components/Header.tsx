@@ -2,9 +2,10 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
+
 import ThemeToggle from "./ThemeToggleButton";
 
-const Header = () => {
+export default function Header() {
   return (
     <header className="fixed z-20 w-full backdrop-blur-md">
       <div className="mx-auto flex max-w-5xl items-center justify-between p-2">
@@ -32,7 +33,7 @@ const Header = () => {
           </Link>
         </motion.div>
 
-        <motion.ul
+        <motion.div
           initial={{
             x: 500,
             opacity: 0,
@@ -49,10 +50,8 @@ const Header = () => {
           className="flex items-center gap-2 lg:gap-10"
         >
           <ThemeToggle />
-        </motion.ul>
+        </motion.div>
       </div>
     </header>
   );
-};
-
-export default Header;
+}
