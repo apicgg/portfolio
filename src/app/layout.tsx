@@ -31,20 +31,35 @@ const mononokiLocal = localFont({
 });
 
 export const metadata: Metadata = {
-  authors: { name: "Anurag Pramanik", url: "https://www.anuragp.dev" },
-  description: "Anurag's homepage",
+  title: {
+    default: "Anurag Pramanik - Homepage",
+    template: "%s | Anurag Pramanik",
+  },
+  description: "Anurag's Portfolio Website ",
+  authors: { name: "Anurag Pramanik", url: "https://www.anuragp.com" },
+  keywords: [
+    "Anurag Pramanik",
+    "portfolio",
+    "software engineer",
+    "frontend",
+    "full-stack",
+    "react",
+    "next.js",
+    "react native",
+    "typescript",
+    "web developer",
+  ],
   twitter: {
     title: "Anurag Pramanik",
     card: "summary_large_image",
-    site: "@titas_p",
-    creator: "@titas_p",
+    site: "@anuragp_dev",
+    creator: "@anuragp_dev",
   },
   openGraph: {
     siteName: "Anurag Pramanik",
     title: "Anurag Pramanik",
     type: "website",
   },
-  title: "Anurag Pramanik - Homepage",
 };
 
 export default function RootLayout({
