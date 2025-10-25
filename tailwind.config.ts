@@ -12,6 +12,9 @@ const config: Config = {
       colors: {
         backgroundColor: "#202023",
         fontColor: "#eee",
+        "brand-light": "#1C3782",
+        "brand-dark": "#74C0FC",
+        "yellow-primary": "rgb(249 195 77 / 0.9)",
       },
     },
   },

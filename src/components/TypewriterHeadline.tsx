@@ -8,7 +8,7 @@ export default function TypewriterHeadline() {
       "Hi, I'm Anurag.",
       "GenAI, Frontend",
       "React, Next.js, TypeScript",
-      "React Native, Expo",
+      "React Native, Expo, iOS",
       "Tailwind, GraphQL",
       "Node.js, AWS, GCP",
     ],

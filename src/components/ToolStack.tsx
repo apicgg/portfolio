@@ -50,7 +50,7 @@ export default function ToolStack() {
           rel="noopener noreferrer"
           target="_blank"
           aria-label="Visit Neovim website for text editor tools"
-          className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110"
+          className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110 lg:hidden"
         >
           <SiNeovim className="gray h-14 w-14" />
         </Link>
@@ -60,7 +60,7 @@ export default function ToolStack() {
           rel="noopener noreferrer"
           target="_blank"
           aria-label="Visit Visual Studio Code website for code editor and extensions"
-          className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110 lg:hidden"
+          className="rounded border-2 border-[#474747] px-14 py-4 duration-300 ease-in-out hover:scale-110"
         >
           <SiVisualstudiocode className="gray h-14 w-14" />
         </Link>
