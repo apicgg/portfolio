@@ -14,7 +14,7 @@ export default function Hero() {
     <section className="mx-auto max-w-5xl">
       <div className="flex h-screen flex-col items-center justify-center space-y-4 overflow-hidden text-center">
         <BackgroundCircle />
-        <figure className="mx-auto h-32 w-32 rounded-full object-cover">
+        {/* <figure className="mx-auto h-32 w-32 rounded-full object-cover">
           <Image
             src={avatar}
             width={128}
@@ -22,7 +22,7 @@ export default function Hero() {
             alt="Anurag's avatar"
             priority
           />
-        </figure>
+        </figure> */}
         <TypewriterHeadline />
       </div>
       <Intro /> {/* stays stable now */}
