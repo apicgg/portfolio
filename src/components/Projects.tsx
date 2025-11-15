@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { FaGithub } from "react-icons/fa";
 
@@ -91,14 +92,14 @@ export default function Projects() {
         )}
 
         <div className="mt-12 text-center">
-          <a
+          <Link
             href="https://github.com/apicgg"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block rounded-xl bg-[#1C3782] px-6 py-3 font-medium text-white transition hover:bg-blue-700"
           >
             View All Projects
-          </a>
+          </Link>
         </div>
       </div>
     </section>
