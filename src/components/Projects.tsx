@@ -92,7 +92,7 @@ export default function Projects() {
 
         <div className="mt-12 text-center">
           <a
-            href="https://github.com/anuragp"
+            href="https://github.com/apicgg"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block rounded-xl bg-[#1C3782] px-6 py-3 font-medium text-white transition hover:bg-blue-700"
