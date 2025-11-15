@@ -1,10 +1,8 @@
 "use client";
 
-import Image from "next/image";
-
-import avatar from "../../public/assets/latest-avatar.png";
 import BackgroundCircle from "./BackgroundCircle";
 import Intro from "./Intro";
+import Projects from "./Projects";
 import TechStack from "./TechStack";
 import ToolStack from "./ToolStack";
 import TypewriterHeadline from "./TypewriterHeadline";
@@ -25,7 +23,8 @@ export default function Hero() {
         </figure> */}
         <TypewriterHeadline />
       </div>
-      <Intro /> {/* stays stable now */}
+      <Intro />
+      <Projects />
       <h2 className="mt-10 pt-8 text-center text-2xl font-semibold md:text-3xl">
         <span className="text-[#1C3782] dark:text-[#74C0FC]">
           Language, Library and Frameworks
