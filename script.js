@@ -13,7 +13,7 @@ async function fetchProjects() {
 
   try {
     const response = await fetch(
-      "https://api.github.com/users/apicgg/repos?per_page=100"
+      "https://api.github.com/users/apicgg/repos?per_page=100",
     );
     const repos = await response.json();
 
@@ -32,7 +32,7 @@ async function fetchProjects() {
       .map((repo) => {
         const name = escapeHtml(repo.name);
         const description = escapeHtml(
-          repo.description || "No description provided."
+          repo.description || "No description provided.",
         );
         const language = escapeHtml(repo.language || "N/A");
         const url = escapeHtml(repo.html_url);

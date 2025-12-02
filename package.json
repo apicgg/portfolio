@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "0.0.1",
+  "description": "Anurag's Portfolio Website",
+  "main": "script.js",
+  "scripts": {
+    "format": "prettier . --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apicgg/portfolio.git"
+  },
+  "author": "Anurag Pramanik <p.anurag@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apicgg/portfolio/issues"
+  },
+  "homepage": "https://github.com/apicgg/portfolio#readme",
+  "devDependencies": {
+    "prettier": "3.7.3"
+  }
+}
