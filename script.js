@@ -36,9 +36,10 @@ async function fetchProjects() {
         );
         const language = escapeHtml(repo.language || "N/A");
         const url = escapeHtml(repo.html_url);
+        const ariaLabel = escapeHtml(`View ${name} project on GitHub`);
         return `
             <div class="project-card">
-                <h3><a href="${url}" target="_blank" rel="noopener noreferrer">${name}</a></h3>
+                <h3><a href="${url}" target="_blank" rel="noopener noreferrer" aria-label="${ariaLabel}">${name}</a></h3>
                 <p>${description}</p>
                 <div class="project-meta">
                     <span>${language}</span>
