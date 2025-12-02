@@ -1,3 +1,6 @@
+// Import CSS
+import "./styles.css";
+
 // Set current year
 document.getElementById("year").textContent = new Date().getFullYear();
 

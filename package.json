@@ -2,9 +2,13 @@
   "name": "portfolio",
   "version": "0.0.1",
   "description": "Anurag's Portfolio Website",
+  "type": "module",
   "main": "script.js",
   "scripts": {
-    "format": "prettier . --write"
+    "format": "prettier . --write",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -17,6 +21,7 @@
   },
   "homepage": "https://github.com/apicgg/portfolio#readme",
   "devDependencies": {
-    "prettier": "3.7.3"
+    "prettier": "3.7.3",
+    "vite": "^7.2.6"
   }
 }
