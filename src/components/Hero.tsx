@@ -28,7 +28,7 @@ export default function Hero() {
         <h2 className="text-3xl font-bold md:text-4xl lg:text-5xl">
           Tech <span className="gradient-text">Stack</span>
         </h2>
-        <p className="mt-2 text-gray-600 dark:text-gray-400">
+        <p className="mt-2 text-gray-400">
           Technologies I use to build amazing mobile and web experiences
         </p>
       </motion.div>
@@ -43,7 +43,7 @@ export default function Hero() {
         <h2 className="text-3xl font-bold md:text-4xl lg:text-5xl">
           Development <span className="gradient-text">Tools</span>
         </h2>
-        <p className="mt-2 text-gray-600 dark:text-gray-400">
+        <p className="mt-2 text-gray-400">
           Tools and services that power my development workflow
         </p>
       </motion.div>

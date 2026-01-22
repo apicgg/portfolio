@@ -22,7 +22,7 @@ const tools = [
     icon: SiExpo,
     href: "https://expo.dev/",
     label: "Expo",
-    color: "text-gray-900 dark:text-gray-100",
+    color: "text-gray-100",
   },
   {
     icon: SiAmazonaws,
@@ -46,7 +46,7 @@ const tools = [
     icon: SiGithub,
     href: "https://github.com/",
     label: "GitHub",
-    color: "text-gray-900 dark:text-gray-100",
+    color: "text-gray-100",
   },
 ];
 
@@ -71,12 +71,12 @@ export default function ToolStack() {
               rel="noopener noreferrer"
               target="_blank"
               aria-label={`Visit ${tool.label} website`}
-              className="group flex flex-col items-center justify-center rounded-2xl border-2 border-gray-200 bg-gradient-to-br from-white to-gray-50 p-6 shadow-md transition-all duration-300 hover:border-gray-400 hover:shadow-xl dark:border-gray-800 dark:from-gray-900 dark:to-gray-800 dark:hover:border-gray-600"
+              className="group flex flex-col items-center justify-center rounded-2xl border-2 border-gray-800 bg-gradient-to-br from-gray-900 to-gray-800 p-6 shadow-md transition-all duration-300 hover:border-gray-600 hover:shadow-xl"
             >
               <tool.icon
                 className={`mb-2 h-12 w-12 transition-colors ${tool.color} group-hover:scale-110`}
               />
-              <span className="text-xs font-medium text-gray-600 dark:text-gray-400">
+              <span className="text-xs font-medium text-gray-400">
                 {tool.label}
               </span>
             </Link>
