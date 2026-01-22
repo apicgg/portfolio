@@ -14,24 +14,24 @@ export default function Footer() {
       icon: FaGithub,
       href: "https://github.com/apicgg",
       label: "GitHub",
-      color: "hover:text-gray-900 dark:hover:text-gray-100",
+      color: "hover:text-gray-100",
     },
     {
       icon: FaLinkedinIn,
       href: "https://www.linkedin.com/in/anurag-p-345843125/",
       label: "LinkedIn",
-      color: "hover:text-blue-600 dark:hover:text-blue-400",
+      color: "hover:text-blue-400",
     },
     {
       icon: FaXTwitter,
       href: "https://twitter.com/anuragp_dev",
       label: "Twitter",
-      color: "hover:text-gray-900 dark:hover:text-gray-100",
+      color: "hover:text-gray-100",
     },
   ];
 
   return (
-    <footer className="border-t border-gray-200/50 bg-white/50 backdrop-blur-sm dark:border-gray-800/50 dark:bg-gray-900/50">
+    <footer className="border-t border-gray-800/50 bg-gray-900/50 backdrop-blur-sm">
       <div className="mx-auto max-w-7xl px-4 py-8 md:px-8">
         <div className="grid grid-rows-3 items-center justify-center gap-y-6 md:grid-cols-3 md:grid-rows-none md:justify-between">
           <motion.p
@@ -39,7 +39,7 @@ export default function Footer() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="font-semibold text-gray-700 dark:text-gray-300"
+            className="font-semibold text-gray-300"
           >
             Built with ❤️ by Anurag
           </motion.p>
@@ -48,7 +48,7 @@ export default function Footer() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="place-self-center text-sm font-medium text-gray-600 dark:text-gray-400"
+            className="place-self-center text-sm font-medium text-gray-400"
           >
             Copyright © {currentYear} AP. All rights reserved.
           </motion.p>
@@ -78,7 +78,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   aria-label={`Visit Anurag's ${social.label}`}
                   prefetch={true}
-                  className={`text-gray-600 transition-colors ${social.color} dark:text-gray-400`}
+                  className={`text-gray-400 transition-colors ${social.color}`}
                 >
                   <social.icon className="h-6 w-6" />
                 </Link>
