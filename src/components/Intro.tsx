@@ -11,13 +11,13 @@ export default function Intro() {
         </h1>
         <p className="text-base leading-relaxed md:text-lg">
           Hi, I&apos;m Anurag — a{" "}
-          <strong className="text-blue-600 dark:text-blue-400">
+          <strong className="text-blue-400">
             Frontend Web and Mobile Developer
           </strong>{" "}
           and Frontend Architect with 7+ years of experience building web
           applications and cross-platform mobile apps. I specialize in creating
           high-performance, native-feeling mobile apps using&nbsp;
-          <strong className="text-brand-light dark:text-brand-dark">
+          <strong className="text-brand-dark">
             <Link
               href="https://reactjs.org/"
               target="_blank"
@@ -115,7 +115,7 @@ export default function Intro() {
             seamless user experiences across web, iOS, and Android platforms.
             Explore my projects and contributions on&nbsp;
             <Link
-              className="group inline-block text-brand-light transition duration-300 dark:text-brand-dark "
+              className="group inline-block text-brand-dark transition duration-300"
               href="https://github.com/apicgg"
               aria-label="Anurag's GitHub"
               target="_blank"

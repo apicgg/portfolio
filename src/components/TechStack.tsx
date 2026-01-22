@@ -25,13 +25,13 @@ const mobileTechs = [
     icon: SiExpo,
     href: "https://expo.dev/",
     label: "Expo",
-    color: "text-gray-900 dark:text-gray-100",
+    color: "text-gray-100",
   },
   {
     icon: FaMobileAlt,
     href: "https://developer.apple.com/ios/",
     label: "iOS",
-    color: "text-gray-900 dark:text-gray-100",
+    color: "text-gray-100",
   },
   {
     icon: SiReact,
@@ -46,7 +46,7 @@ const webTechs = [
     icon: SiNextdotjs,
     href: "https://nextjs.org/",
     label: "Next.js",
-    color: "text-gray-900 dark:text-gray-100",
+    color: "text-gray-100",
   },
   {
     icon: SiTypescript,
@@ -96,7 +96,7 @@ export default function TechStack() {
         transition={{ duration: 0.6 }}
         className="mb-8 text-center"
       >
-        <h3 className="mb-2 text-sm font-semibold uppercase tracking-wider text-blue-600 dark:text-blue-400">
+        <h3 className="mb-2 text-sm font-semibold uppercase tracking-wider text-blue-400">
           Mobile First
         </h3>
       </motion.div>
@@ -116,12 +116,12 @@ export default function TechStack() {
               rel="noopener noreferrer"
               target="_blank"
               aria-label={`Visit ${tech.label} documentation`}
-              className="group flex flex-col items-center justify-center rounded-2xl border-2 border-gray-200 bg-gradient-to-br from-white to-gray-50 p-6 shadow-md transition-all duration-300 hover:border-blue-400 hover:shadow-xl dark:border-gray-800 dark:from-gray-900 dark:to-gray-800 dark:hover:border-blue-500"
+              className="group flex flex-col items-center justify-center rounded-2xl border-2 border-gray-800 bg-gradient-to-br from-gray-900 to-gray-800 p-6 shadow-md transition-all duration-300 hover:border-blue-500 hover:shadow-xl"
             >
               <tech.icon
                 className={`mb-2 h-12 w-12 transition-colors ${tech.color} group-hover:scale-110`}
               />
-              <span className="text-xs font-medium text-gray-600 dark:text-gray-400">
+              <span className="text-xs font-medium text-gray-400">
                 {tech.label}
               </span>
             </Link>
@@ -136,7 +136,7 @@ export default function TechStack() {
         transition={{ duration: 0.6, delay: 0.2 }}
         className="mb-8 mt-12 text-center"
       >
-        <h3 className="mb-2 text-sm font-semibold uppercase tracking-wider text-purple-600 dark:text-purple-400">
+        <h3 className="mb-2 text-sm font-semibold uppercase tracking-wider text-purple-400">
           Web & Backend
         </h3>
       </motion.div>
@@ -156,12 +156,12 @@ export default function TechStack() {
               rel="noopener noreferrer"
               target="_blank"
               aria-label={`Visit ${tech.label} documentation`}
-              className="group flex flex-col items-center justify-center rounded-2xl border-2 border-gray-200 bg-gradient-to-br from-white to-gray-50 p-6 shadow-md transition-all duration-300 hover:border-purple-400 hover:shadow-xl dark:border-gray-800 dark:from-gray-900 dark:to-gray-800 dark:hover:border-purple-500"
+              className="group flex flex-col items-center justify-center rounded-2xl border-2 border-gray-800 bg-gradient-to-br from-gray-900 to-gray-800 p-6 shadow-md transition-all duration-300 hover:border-purple-500 hover:shadow-xl"
             >
               <tech.icon
                 className={`mb-2 h-12 w-12 transition-colors ${tech.color} group-hover:scale-110`}
               />
-              <span className="text-xs font-medium text-gray-600 dark:text-gray-400">
+              <span className="text-xs font-medium text-gray-400">
                 {tech.label}
               </span>
             </Link>
@@ -181,12 +181,12 @@ export default function TechStack() {
               rel="noopener noreferrer"
               target="_blank"
               aria-label={`Visit ${tech.label} documentation`}
-              className="group flex flex-col items-center justify-center rounded-2xl border-2 border-gray-200 bg-gradient-to-br from-white to-gray-50 p-6 shadow-md transition-all duration-300 hover:border-purple-400 hover:shadow-xl dark:border-gray-800 dark:from-gray-900 dark:to-gray-800 dark:hover:border-purple-500"
+              className="group flex flex-col items-center justify-center rounded-2xl border-2 border-gray-800 bg-gradient-to-br from-gray-900 to-gray-800 p-6 shadow-md transition-all duration-300 hover:border-purple-500 hover:shadow-xl"
             >
               <tech.icon
                 className={`mb-2 h-12 w-12 transition-colors ${tech.color} group-hover:scale-110`}
               />
-              <span className="text-xs font-medium text-gray-600 dark:text-gray-400">
+              <span className="text-xs font-medium text-gray-400">
                 {tech.label}
               </span>
             </Link>

@@ -32,10 +32,10 @@ export default function TypewriterHeadline() {
         className="mb-6 flex justify-center"
       >
         <div className="rounded-full bg-gradient-to-br from-blue-500/20 to-purple-500/20 p-4 backdrop-blur-sm">
-          <FaMobileAlt className="h-12 w-12 text-blue-600 dark:text-blue-400" />
+          <FaMobileAlt className="h-12 w-12 text-blue-400" />
         </div>
       </motion.div>
-      <h2 className="mb-4 p-2 text-sm uppercase tracking-[15px] text-zinc-700 dark:text-gray-400">
+      <h2 className="mb-4 p-2 text-sm uppercase tracking-[15px] text-gray-400">
         Frontend Web & Mobile Developer
       </h2>
       <h1 className="px-4 text-2xl font-bold md:px-10 md:text-3xl lg:text-5xl">
@@ -46,7 +46,7 @@ export default function TypewriterHeadline() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.8, duration: 0.6 }}
-        className="mt-6 px-4 text-base text-gray-600 dark:text-gray-400 md:text-lg"
+        className="mt-6 px-4 text-base text-gray-400 md:text-lg"
       >
         Crafting beautiful, performant web and mobile experiences
       </motion.p>

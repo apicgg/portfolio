@@ -111,7 +111,7 @@ export default function Projects() {
           <h2 className="mb-4 text-4xl font-bold md:text-5xl">
             Featured <span className="gradient-text">Projects</span>
           </h2>
-          <p className="mx-auto max-w-2xl text-gray-600 dark:text-gray-400">
+          <p className="mx-auto max-w-2xl text-gray-400">
             Mobile apps, libraries, and open-source contributions
           </p>
         </motion.div>
@@ -131,22 +131,22 @@ export default function Projects() {
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.1, duration: 0.5 }}
                 whileHover={{ scale: 1.05, y: -5 }}
-                className="card-hover group block overflow-hidden rounded-2xl border border-gray-200 bg-white/50 p-6 shadow-lg backdrop-blur-sm dark:border-gray-800 dark:bg-gray-900/50"
+                className="card-hover group block overflow-hidden rounded-2xl border border-gray-800 bg-gray-900/50 p-6 shadow-lg backdrop-blur-sm"
               >
                 <div className="mb-4 flex items-start justify-between">
-                  <h3 className="text-xl font-bold transition-colors group-hover:text-blue-600 dark:group-hover:text-blue-400">
+                  <h3 className="text-xl font-bold transition-colors group-hover:text-blue-400">
                     {repo.name}
                   </h3>
-                  <FaGithub className="h-5 w-5 text-gray-400 transition-colors group-hover:text-blue-600 dark:group-hover:text-blue-400" />
+                  <FaGithub className="h-5 w-5 text-gray-400 transition-colors group-hover:text-blue-400" />
                 </div>
-                <p className="mb-4 line-clamp-3 text-sm text-gray-600 dark:text-gray-300">
+                <p className="mb-4 line-clamp-3 text-sm text-gray-300">
                   {repo.description || "No description provided."}
                 </p>
                 <div className="flex items-center justify-between">
-                  <span className="rounded-full bg-blue-100 px-3 py-1 text-xs font-medium text-blue-700 dark:bg-blue-900/30 dark:text-blue-300">
+                  <span className="rounded-full bg-blue-900/30 px-3 py-1 text-xs font-medium text-blue-300">
                     {repo.language || "N/A"}
                   </span>
-                  <div className="flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                  <div className="flex items-center gap-4 text-sm text-gray-400">
                     <span className="flex items-center gap-1">
                       <span>⭐</span>
                       <span className="font-semibold">

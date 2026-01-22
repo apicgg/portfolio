@@ -39,9 +39,9 @@ export default function BackgroundCircle() {
         />
 
         {/* Static circles */}
-        <div className="absolute h-[200px] w-[200px] animate-ping rounded-full border-2 border-blue-400/30 dark:border-blue-500/30" />
-        <div className="absolute h-[300px] w-[300px] rounded-full border border-gray-300/20 dark:border-gray-700/30" />
-        <div className="absolute h-[500px] w-[500px] rounded-full border border-gray-300/10 dark:border-gray-700/20" />
+        <div className="absolute h-[200px] w-[200px] animate-ping rounded-full border-2 border-blue-500/30" />
+        <div className="absolute h-[300px] w-[300px] rounded-full border border-gray-700/30" />
+        <div className="absolute h-[500px] w-[500px] rounded-full border border-gray-700/20" />
         <motion.div
           animate={{
             opacity: [0.1, 0.3, 0.1],
@@ -51,7 +51,7 @@ export default function BackgroundCircle() {
             repeat: Infinity,
             ease: "easeInOut",
           }}
-          className="absolute h-[650px] w-[650px] rounded-full border-2 border-blue-400/20 dark:border-blue-500/20"
+          className="absolute h-[650px] w-[650px] rounded-full border-2 border-blue-500/20"
         />
       </motion.div>
     </div>

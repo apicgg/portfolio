@@ -81,9 +81,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" className="dark" suppressHydrationWarning>
       <body
-        className={`${mononokiLocal.className} break-words bg-gradient-to-br from-slate-50 via-blue-50/30 to-purple-50/20 leading-6 text-zinc-900 transition-colors duration-500 dark:from-zinc-800 dark:via-zinc-700/40 dark:to-zinc-800 dark:text-zinc-100`}
+        className={`${mononokiLocal.className} break-words bg-gradient-to-br from-zinc-800 via-zinc-700/40 to-zinc-800 leading-6 text-zinc-100`}
       >
         {children}
         <SpeedInsights />
