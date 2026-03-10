@@ -1,4 +1,5 @@
 import "./styles.css";
+import { formatDisplayDate, posts } from "./blog-content.js";
 
 document.getElementById("year").textContent = new Date().getFullYear();
 
@@ -6,6 +7,37 @@ const startYear = 2018;
 const currentYear = new Date().getFullYear();
 const experience = currentYear - startYear;
 document.getElementById("experience").textContent = experience;
+
+function renderLatestPosts() {
+  const container = document.getElementById("writing-container");
+
+  if (!container) {
+    return;
+  }
+
+  const latestPosts = posts.slice(0, 3);
+
+  if (latestPosts.length === 0) {
+    container.innerHTML = "<p>No posts published yet.</p>";
+    return;
+  }
+
+  container.innerHTML = latestPosts
+    .map(
+      (post) => `
+        <article class="writing-card">
+          <div class="writing-card-meta">
+            <span>${formatDisplayDate(post.date)}</span>
+            <span>${post.readingTime}</span>
+          </div>
+          <h3><a href="/blog/?slug=${post.slug}">${post.title}</a></h3>
+          <p>${post.summary}</p>
+          <a class="writing-link" href="/blog/?slug=${post.slug}">Read post</a>
+        </article>
+      `,
+    )
+    .join("");
+}
 
 async function fetchProjects() {
   const container = document.getElementById("projects-container");
@@ -61,3 +93,4 @@ function escapeHtml(text) {
 }
 
 fetchProjects();
+renderLatestPosts();
