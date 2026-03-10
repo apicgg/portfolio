@@ -15,7 +15,7 @@ function renderLatestPosts() {
     return;
   }
 
-  const latestPosts = posts.slice(0, 3);
+  const latestPosts = posts.slice(0, 4);
 
   if (latestPosts.length === 0) {
     container.innerHTML = "<p>No posts published yet.</p>";

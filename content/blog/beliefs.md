@@ -1,55 +1,53 @@
 ---
-title: Beliefs
+title: Things I Believe
 date: 2026-03-10
 summary: A living list of beliefs on software, product work, systems, and engineering judgment.
 ---
 
 This is a living document. Some of these ideas will strengthen over time. Some will be replaced. That is part of the point.
 
-## Clarity compounds faster than complexity
+## Shipping fast beats perfect strategy
 
-- Simple systems survive handoffs better.
-- Readable code is a delivery advantage, not just a style preference.
-- Most teams do not need more abstraction. They need fewer surprises.
-
-## Shipping is only useful when it reaches people
-
-- Released code is not the same thing as adopted software.
+- Speed is a superpower
+- Create a bias toward shipping
+- Small teams ship faster
+- Listen, build, ship, tell the customer, then repeat forever
 - Feedback loops matter more than polished internal plans.
-- Small improvements shipped consistently beat dramatic rewrites.
 
-## Frontend work is product work
+## You have no career ceiling
 
-- User trust is shaped by details most roadmaps never mention.
-- Performance, accessibility, and content design are core features.
-- Interfaces should lower cognitive load, not display technical ambition.
+- Grit > talent
+- There’s no substitute for putting in the hours
+- Get 1% better every day
 
-## Good architecture preserves options
+## Demos > memos
 
-- The best systems make future change cheaper.
-- Boundaries matter more than patterns with impressive names.
-- If a design cannot be explained plainly, it is probably too heavy.
+- Stakeholders care most about what they can actually see. In many cases, you could build a prototype with AI during the meeting
+- Performance, accessibility, and content design are core features
+- Bad managers can teach you how to become a good one
 
-## Writing is a leadership tool
+## Read more code
 
-- Ambiguity survives longer in speech than in writing.
-- Clear documents reduce rework before implementation begins.
-- The person who creates clarity often becomes the default leader.
+- Start contributing to open source as early as possible
+- Read other people’s code, even when it’s messy
+- Ownership is the key to growth
 
-## Taste matters when choosing what not to build
+## Work can also be your hobby
 
-- Not every capability deserves a framework or service.
-- Restraint is often more valuable than optionality.
-- A focused product earns trust faster than a crowded one.
+- This doesn’t mean you can’t have other hobbies
+- Passion + boundaries > mythical "work-life balance"
+- Your best work comes from following your curiosity
 
-## Teams move faster when expectations are explicit
+## Communication is the job
 
-- Unspoken assumptions create avoidable conflict.
-- Decision records are cheap compared to repeated debates.
-- Strong alignment removes the need for constant supervision.
+- Clear writing is clear thinking
+- Everyone (yes, you) needs to become a better writer
+- Leaders step up to provide clarity when absent
+- Be the person taking notes, even if it’s just for yourself
+- Slack pro tip: anticipate objections before hitting send, then address them
 
 ## Curiosity is a durable career advantage
 
-- Tools change, but the habit of learning compounds.
-- Following technical curiosity often reveals better product solutions.
-- People who stay interested tend to stay useful.
+- Tools change, but the habit of learning compounds
+- Following technical curiosity often reveals better product solutions
+- People who stay interested tend to stay useful
