@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Writing by Anurag Pramanik on software engineering, frontend architecture, and building digital products with clarity."
+    />
+    <meta name="author" content="Anurag Pramanik" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#0066cc" />
+    <link rel="canonical" href="https://anuragp.com/blog/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://anuragp.com/blog/" />
+    <meta property="og:title" content="Blog | Anurag Pramanik" />
+    <meta
+      property="og:description"
+      content="Essays and notes on software engineering, frontend systems, and product execution."
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Blog | Anurag Pramanik" />
+    <meta
+      name="twitter:description"
+      content="Essays and notes on software engineering, frontend systems, and product execution."
+    />
+    <title>Blog | Anurag Pramanik</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/" class="logo" aria-label="Anurag Pramanik homepage">AP.</a>
+        <div class="nav-links">
+          <a href="/blog/" aria-current="page" aria-label="Visit the blog section">Blog</a>
+          <a href="/#projects" aria-label="Go to projects section">Projects</a>
+          <a
+            href="https://github.com/apicgg"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit Anurag's GitHub profile"
+            >GitHub</a
+          >
+        </div>
+      </nav>
+    </header>
+
+    <main class="blog-page">
+      <section id="blog-list-view" class="blog-hero">
+        <p class="eyebrow">Blog</p>
+        <h1>Thoughts on building clear, durable software.</h1>
+        <p class="blog-intro">
+          A small collection of notes on frontend architecture, engineering
+          judgment, and the systems behind good product work.
+        </p>
+        <div id="blog-post-list" class="writing-grid"></div>
+        <div id="blog-empty-state" class="empty-state" hidden>
+          <p>No writing published yet.</p>
+        </div>
+      </section>
+
+      <section id="blog-post-view" class="blog-post-view" hidden>
+        <a class="back-link" href="/blog/">Back to all posts</a>
+        <article id="blog-article" class="blog-post"></article>
+      </section>
+    </main>
+
+    <footer>
+      <p>Built by Anurag.</p>
+      <p>Copyright © <span id="year"></span> AP</p>
+      <nav class="footer-links">
+        <a
+          href="https://github.com/apicgg"
+          target="_blank"
+          rel="noopener noreferrer me"
+          aria-label="Visit Anurag's GitHub profile"
+          >GitHub</a
+        >
+        <a
+          href="https://www.linkedin.com/in/anurag-p-345843125/"
+          target="_blank"
+          rel="noopener noreferrer me"
+          aria-label="Visit Anurag's LinkedIn profile"
+          >LinkedIn</a
+        >
+        <a
+          href="https://twitter.com/anuragp_dev"
+          target="_blank"
+          rel="noopener noreferrer me"
+          aria-label="Visit Anurag's Twitter profile"
+          >Twitter</a
+        >
+      </nav>
+    </footer>
+
+    <script type="module" src="/src/blog.js"></script>
+    <script>
+      window.va =
+        window.va ||
+        function () {
+          (window.vaq = window.vaq || []).push(arguments);
+        };
+    </script>
+    <script>
+      window.si =
+        window.si ||
+        function () {
+          (window.siq = window.siq || []).push(arguments);
+        };
+    </script>
+    <script defer src="/_vercel/speed-insights/script.js"></script>
+  </body>
+</html>
