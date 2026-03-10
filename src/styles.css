@@ -7,6 +7,7 @@
 :root {
   --bg-color: #ffffff;
   --text-color: #333333;
+  --muted-text: #666666;
   --link-color: #0066cc;
   --link-hover: #004499;
   --button-bg: #0066cc;
@@ -15,6 +16,24 @@
   --button-text-hover: #ffffff;
   --border-color: #e0e0e0;
   --code-bg: #f5f5f5;
+  --card-bg: #ffffff;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+:root[data-theme="dark"] {
+  --bg-color: #111827;
+  --text-color: #e5e7eb;
+  --muted-text: #9ca3af;
+  --link-color: #7dd3fc;
+  --link-hover: #bae6fd;
+  --button-bg: #2563eb;
+  --button-hover: #1d4ed8;
+  --button-text: #ffffff;
+  --button-text-hover: #ffffff;
+  --border-color: #374151;
+  --code-bg: #1f2937;
+  --card-bg: #111827;
+  --shadow-color: rgba(0, 0, 0, 0.35);
 }
 
 body {
@@ -69,6 +88,21 @@ nav {
   text-decoration: none;
 }
 
+.theme-toggle {
+  border: 1px solid var(--border-color);
+  background-color: transparent;
+  color: var(--text-color);
+  border-radius: 999px;
+  padding: 8px 12px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  color: var(--link-hover);
+  border-color: var(--link-hover);
+}
+
 .nav-links a:hover {
   text-decoration: underline;
 }
@@ -89,7 +123,7 @@ nav {
 
 .subtitle {
   font-size: 18px;
-  color: #666;
+  color: var(--muted-text);
 }
 
 /* Intro section */
@@ -131,7 +165,7 @@ a:hover {
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #666;
+  color: var(--muted-text);
   margin-bottom: 12px;
 }
 
@@ -168,7 +202,7 @@ a:hover {
   border: 1px solid var(--border-color);
   border-radius: 10px;
   padding: 24px;
-  background: linear-gradient(180deg, #ffffff 0%, #fafcff 100%);
+  background: linear-gradient(180deg, var(--card-bg) 0%, var(--code-bg) 100%);
 }
 
 .writing-card h2,
@@ -179,7 +213,7 @@ a:hover {
 }
 
 .writing-card p {
-  color: #555;
+  color: var(--muted-text);
   margin-bottom: 14px;
 }
 
@@ -188,7 +222,7 @@ a:hover {
   gap: 14px;
   flex-wrap: wrap;
   font-size: 13px;
-  color: #666;
+  color: var(--muted-text);
   margin-bottom: 14px;
 }
 
@@ -228,6 +262,7 @@ a:hover {
   border: 1px solid var(--border-color);
   border-radius: 4px;
   padding: 20px;
+  background-color: var(--card-bg);
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease;
@@ -235,7 +270,7 @@ a:hover {
 
 .project-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px var(--shadow-color);
 }
 
 .project-card h3 {
@@ -247,7 +282,7 @@ a:hover {
 
 .project-card p {
   font-size: 14px;
-  color: #555;
+  color: var(--muted-text);
   margin-bottom: 12px;
   line-height: 1.6;
 }
@@ -256,7 +291,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   font-size: 12px;
-  color: #555;
+  color: var(--muted-text);
   margin-top: 12px;
 }
 
@@ -359,13 +394,13 @@ footer {
   justify-content: space-between;
   gap: 16px;
   flex-wrap: wrap;
-  color: #666;
+  color: var(--muted-text);
 }
 
 footer p {
   margin-bottom: 10px;
   font-size: 14px;
-  color: #666;
+  color: var(--muted-text);
 }
 
 .footer-links {
@@ -400,7 +435,7 @@ footer p {
 .blog-intro,
 .blog-post-summary {
   font-size: 16px;
-  color: #555;
+  color: var(--muted-text);
   max-width: 720px;
   margin-bottom: 36px;
 }
@@ -561,7 +596,7 @@ footer p {
 /* Loading UI */
 #projects-container p {
   text-align: center;
-  color: #666;
+  color: var(--muted-text);
   padding: 40px 0;
 }
 

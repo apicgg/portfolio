@@ -3,6 +3,22 @@ import { formatDisplayDate, posts } from "./blog-content.js";
 
 document.getElementById("year").textContent = new Date().getFullYear();
 
+const themeToggle = document.getElementById("theme-toggle");
+
+function applyTheme(theme) {
+  document.documentElement.dataset.theme = theme;
+  themeToggle.textContent = theme === "dark" ? "Light" : "Dark";
+  localStorage.setItem("theme", theme);
+}
+
+themeToggle?.addEventListener("click", () => {
+  const currentTheme = document.documentElement.dataset.theme || "light";
+  const nextTheme = currentTheme === "dark" ? "light" : "dark";
+  applyTheme(nextTheme);
+});
+
+applyTheme(document.documentElement.dataset.theme || "light");
+
 const startYear = 2018;
 const currentYear = new Date().getFullYear();
 const experience = currentYear - startYear;

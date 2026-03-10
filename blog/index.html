@@ -24,6 +24,13 @@
       name="twitter:description"
       content="Essays and notes on software engineering, frontend systems, and product execution."
     />
+    <script>
+      const savedTheme = localStorage.getItem("theme");
+      const prefersDark =
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+      const theme = savedTheme || (prefersDark ? "dark" : "light");
+      document.documentElement.dataset.theme = theme;
+    </script>
     <title>Blog | Anurag Pramanik</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   </head>
@@ -33,6 +40,14 @@
         <a href="/" class="logo" aria-label="Anurag Pramanik homepage">AP.</a>
         <div class="nav-links">
           <a href="/blog/" aria-current="page" aria-label="Visit the blog section">Blog</a>
+          <button
+            id="theme-toggle"
+            class="theme-toggle"
+            type="button"
+            aria-label="Toggle color theme"
+          >
+            Dark
+          </button>
           <a href="/#projects" aria-label="Go to projects section">Projects</a>
           <a
             href="https://github.com/apicgg"

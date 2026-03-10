@@ -3,8 +3,28 @@ import { formatDisplayDate, getPostBySlug, posts } from "./blog-content.js";
 
 document.getElementById("year").textContent = new Date().getFullYear();
 
+const themeToggle = document.getElementById("theme-toggle");
 const params = new URLSearchParams(window.location.search);
 const slug = params.get("slug");
+
+function applyTheme(theme) {
+  document.documentElement.dataset.theme = theme;
+
+  if (themeToggle) {
+    themeToggle.textContent = theme === "dark" ? "Light" : "Dark";
+  }
+
+  localStorage.setItem("theme", theme);
+}
+
+themeToggle?.addEventListener("click", () => {
+  const currentTheme = document.documentElement.dataset.theme || "light";
+  const nextTheme = currentTheme === "dark" ? "light" : "dark";
+  applyTheme(nextTheme);
+});
+
+applyTheme(document.documentElement.dataset.theme || "light");
+
 const listView = document.getElementById("blog-list-view");
 const postView = document.getElementById("blog-post-view");
 const listContainer = document.getElementById("blog-post-list");
