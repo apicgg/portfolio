@@ -1,6 +1,6 @@
 ---
 title: Things I Believe
-date: 2026-03-10
+date: 2026-03-12
 summary: A living list of beliefs on software, product work, systems, and engineering judgment.
 ---
 
@@ -31,6 +31,7 @@ This is a living document. Some of these ideas will strengthen over time. Some w
 - Start contributing to open source as early as possible
 - Read other people’s code, even when it’s messy
 - Ownership is the key to growth
+- Make your code modular
 
 ## Work can also be your hobby
 
