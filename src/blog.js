@@ -57,6 +57,11 @@ function renderList() {
 function renderPost(post) {
   document.title = `${post.title} | Anurag Pramanik`;
 
+  const canonical = document.querySelector('link[rel="canonical"]');
+  if (canonical) {
+    canonical.href = `https://anuragp.com/blog/?slug=${post.slug}`;
+  }
+
   articleContainer.innerHTML = `
     <div class="blog-post-header">
       <p class="eyebrow">Blog</p>
